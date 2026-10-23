@@ -1,0 +1,72 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"ZZ 大类\"",
+      "color": {
+        "a": 1,
+        "rgb": 1204697
+      }
+    },
+    {
+      "query": "path:\"本章复盘\"",
+      "color": {
+        "a": 1,
+        "rgb": 4556003
+      }
+    },
+    {
+      "query": "path:\"ZZ 考点\"",
+      "color": {
+        "a": 1,
+        "rgb": 8628706
+      }
+    },
+    {
+      "query": "path:\"题目\"",
+      "color": {
+        "a": 1,
+        "rgb": 13097456
+      }
+    },
+    {
+      "query": "path:\"真题\"",
+      "color": {
+        "a": 1,
+        "rgb": 6658017
+      }
+    },
+    {
+      "query": "path:\"图谱\"",
+      "color": {
+        "a": 1,
+        "rgb": 1988280
+      }
+    },
+    {
+      "query": "path:\"00 索引\"",
+      "color": {
+        "a": 1,
+        "rgb": 10467548
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.795789328774733,
+  "close": false
+}

@@ -1,0 +1,27 @@
+# macOS / 系统垃圾
+.DS_Store
+._*
+Icon?
+
+# Obsidian 运行时状态（每次开关都会变，不必版本化）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json.bak-*
+.obsidian/plugins/*/main.js.map
+.trash/
+
+# 脚本缓存
+__pycache__/
+*.pyc
+
+# 教材 PDF 不进仓库：单本 200–300MB，超过 GitHub 100MB 单文件上限
+00 教材/*.pdf
+01 思维导图/*.pdf
+01 思维导图/**/*.pdf
+99 附件/*.pdf
+*.pdf
+
+# 本地 OCR / 索引中间产物
+99 脚本/__pycache__/
+index/

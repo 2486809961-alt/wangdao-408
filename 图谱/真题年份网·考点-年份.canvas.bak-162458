@@ -1,0 +1,1970 @@
+{
+ "nodes": [
+  {
+   "id": "n1",
+   "type": "text",
+   "x": 0,
+   "y": 0,
+   "width": 190,
+   "height": 66,
+   "text": "**2009**",
+   "color": "2"
+  },
+  {
+   "id": "n2",
+   "type": "text",
+   "x": 0,
+   "y": 115,
+   "width": 190,
+   "height": 66,
+   "text": "**2010**",
+   "color": "2"
+  },
+  {
+   "id": "n3",
+   "type": "text",
+   "x": 0,
+   "y": 230,
+   "width": 190,
+   "height": 66,
+   "text": "**2011**",
+   "color": "2"
+  },
+  {
+   "id": "n4",
+   "type": "text",
+   "x": 0,
+   "y": 345,
+   "width": 190,
+   "height": 66,
+   "text": "**2012**",
+   "color": "2"
+  },
+  {
+   "id": "n5",
+   "type": "text",
+   "x": 0,
+   "y": 460,
+   "width": 190,
+   "height": 66,
+   "text": "**2013**",
+   "color": "2"
+  },
+  {
+   "id": "n6",
+   "type": "text",
+   "x": 0,
+   "y": 575,
+   "width": 190,
+   "height": 66,
+   "text": "**2014**",
+   "color": "2"
+  },
+  {
+   "id": "n7",
+   "type": "text",
+   "x": 0,
+   "y": 690,
+   "width": 190,
+   "height": 66,
+   "text": "**2015**",
+   "color": "2"
+  },
+  {
+   "id": "n8",
+   "type": "text",
+   "x": 0,
+   "y": 805,
+   "width": 190,
+   "height": 66,
+   "text": "**2016**",
+   "color": "2"
+  },
+  {
+   "id": "n9",
+   "type": "text",
+   "x": 0,
+   "y": 920,
+   "width": 190,
+   "height": 66,
+   "text": "**2017**",
+   "color": "2"
+  },
+  {
+   "id": "n10",
+   "type": "text",
+   "x": 0,
+   "y": 1035,
+   "width": 190,
+   "height": 66,
+   "text": "**2018**",
+   "color": "2"
+  },
+  {
+   "id": "n11",
+   "type": "text",
+   "x": 0,
+   "y": 1150,
+   "width": 190,
+   "height": 66,
+   "text": "**2019**",
+   "color": "2"
+  },
+  {
+   "id": "n12",
+   "type": "text",
+   "x": 0,
+   "y": 1265,
+   "width": 190,
+   "height": 66,
+   "text": "**2020**",
+   "color": "2"
+  },
+  {
+   "id": "n13",
+   "type": "text",
+   "x": 0,
+   "y": 1380,
+   "width": 190,
+   "height": 66,
+   "text": "**2021**",
+   "color": "2"
+  },
+  {
+   "id": "n14",
+   "type": "text",
+   "x": 0,
+   "y": 1495,
+   "width": 190,
+   "height": 66,
+   "text": "**2022**",
+   "color": "2"
+  },
+  {
+   "id": "n15",
+   "type": "text",
+   "x": 0,
+   "y": 1610,
+   "width": 190,
+   "height": 66,
+   "text": "**2023**",
+   "color": "2"
+  },
+  {
+   "id": "n16",
+   "type": "text",
+   "x": 0,
+   "y": 1725,
+   "width": 190,
+   "height": 66,
+   "text": "**2024**",
+   "color": "2"
+  },
+  {
+   "id": "n17",
+   "type": "text",
+   "x": 0,
+   "y": 1840,
+   "width": 190,
+   "height": 66,
+   "text": "**2025**",
+   "color": "2"
+  },
+  {
+   "id": "n18",
+   "type": "text",
+   "x": 620,
+   "y": 0,
+   "width": 470,
+   "height": 92,
+   "text": "**PV操作的应用题**\n`操作系统 · 8 年考过`\nPDF p119（原书 p.107）",
+   "color": "5"
+  },
+  {
+   "id": "n19",
+   "type": "text",
+   "x": 620,
+   "y": 125,
+   "width": 470,
+   "height": 92,
+   "text": "**分析时空复杂度**\n`数据结构 · 7 年考过`\nPDF p17（原书 p.5）",
+   "color": "4"
+  },
+  {
+   "id": "n20",
+   "type": "text",
+   "x": 620,
+   "y": 250,
+   "width": 470,
+   "height": 92,
+   "text": "**涉及汇编代码**\n`计算机组成原理 · 7 年考过`\nPDF p183（原书 p.171）",
+   "color": "6"
+  },
+  {
+   "id": "n21",
+   "type": "text",
+   "x": 620,
+   "y": 375,
+   "width": 470,
+   "height": 92,
+   "text": "**总线带宽分析与计算**\n`计算机组成原理 · 7 年考过`\nPDF p288（原书 p.276）",
+   "color": "6"
+  },
+  {
+   "id": "n22",
+   "type": "text",
+   "x": 620,
+   "y": 500,
+   "width": 470,
+   "height": 92,
+   "text": "**分析算法的时间复杂度**\n`数据结构 · 6 年考过`\nPDF p17（原书 p.5）",
+   "color": "4"
+  },
+  {
+   "id": "n23",
+   "type": "text",
+   "x": 620,
+   "y": 625,
+   "width": 470,
+   "height": 92,
+   "text": "**单链表应用**\n`数据结构 · 6 年考过`\nPDF p43（原书 p.31）",
+   "color": "4"
+  },
+  {
+   "id": "n24",
+   "type": "text",
+   "x": 620,
+   "y": 750,
+   "width": 470,
+   "height": 92,
+   "text": "**出入栈序列的分析**\n`数据结构 · 6 年考过`\nPDF p76（原书 p.64）",
+   "color": "4"
+  },
+  {
+   "id": "n25",
+   "type": "text",
+   "x": 620,
+   "y": 875,
+   "width": 470,
+   "height": 92,
+   "text": "**各种排序算法特点和对比**\n`数据结构 · 6 年考过`\nPDF p385（原书 p.373）",
+   "color": "4"
+  },
+  {
+   "id": "n26",
+   "type": "text",
+   "x": 620,
+   "y": 1000,
+   "width": 470,
+   "height": 92,
+   "text": "**CPU 执行时间的相关计算**\n`计算机组成原理 · 6 年考过`\nPDF p24（原书 p.12）",
+   "color": "6"
+  },
+  {
+   "id": "n27",
+   "type": "text",
+   "x": 620,
+   "y": 1125,
+   "width": 470,
+   "height": 92,
+   "text": "**补码运算的溢出判断**\n`计算机组成原理 · 6 年考过`\nPDF p48（原书 p.36）",
+   "color": "6"
+  },
+  {
+   "id": "n28",
+   "type": "text",
+   "x": 620,
+   "y": 1250,
+   "width": 470,
+   "height": 92,
+   "text": "**实数与 IEEE 754浮点数的相互转换**\n`计算机组成原理 · 6 年考过`\nPDF p68（原书 p.56）",
+   "color": "6"
+  },
+  {
+   "id": "n29",
+   "type": "text",
+   "x": 620,
+   "y": 1375,
+   "width": 470,
+   "height": 92,
+   "text": "**相对寻址的相关分析与计算**\n`计算机组成原理 · 6 年考过`\nPDF p170（原书 p.158）",
+   "color": "6"
+  },
+  {
+   "id": "n30",
+   "type": "text",
+   "x": 620,
+   "y": 1500,
+   "width": 470,
+   "height": 92,
+   "text": "**分页系统的逻辑地址结构**\n`操作系统 · 6 年考过`\nPDF p196（原书 p.184）",
+   "color": "5"
+  },
+  {
+   "id": "n31",
+   "type": "text",
+   "x": 620,
+   "y": 1625,
+   "width": 470,
+   "height": 92,
+   "text": "**顺序表应用**\n`数据结构 · 5 年考过`\nPDF p27（原书 p.15）",
+   "color": "4"
+  },
+  {
+   "id": "n32",
+   "type": "text",
+   "x": 620,
+   "y": 1750,
+   "width": 470,
+   "height": 92,
+   "text": "**数据的大小端存储**\n`计算机组成原理 · 5 年考过`\nPDF p71（原书 p.59）",
+   "color": "6"
+  },
+  {
+   "id": "n33",
+   "type": "text",
+   "x": 620,
+   "y": 1875,
+   "width": 470,
+   "height": 92,
+   "text": "**组相联映射原理**\n`计算机组成原理 · 5 年考过`\nPDF p125（原书 p.113）",
+   "color": "6"
+  },
+  {
+   "id": "n34",
+   "type": "text",
+   "x": 620,
+   "y": 2000,
+   "width": 470,
+   "height": 92,
+   "text": "**指令流水的数据冒险**\n`计算机组成原理 · 5 年考过`\nPDF p264（原书 p.252）",
+   "color": "6"
+  },
+  {
+   "id": "n35",
+   "type": "text",
+   "x": 620,
+   "y": 2125,
+   "width": 470,
+   "height": 92,
+   "text": "**程序中断效率分析及相关计算**\n`计算机组成原理 · 5 年考过`\nPDF p312（原书 p.300）",
+   "color": "6"
+  },
+  {
+   "id": "n36",
+   "type": "text",
+   "x": 620,
+   "y": 2250,
+   "width": 470,
+   "height": 92,
+   "text": "**引起进程状态转换的事件**\n`操作系统 · 5 年考过`\nPDF p54（原书 p.42）",
+   "color": "5"
+  },
+  {
+   "id": "n37",
+   "type": "text",
+   "x": 620,
+   "y": 2375,
+   "width": 470,
+   "height": 92,
+   "text": "**银行家算法安全序列分析**\n`操作系统 · 5 年考过`\nPDF p167（原书 p.155）",
+   "color": "5"
+  },
+  {
+   "id": "n38",
+   "type": "text",
+   "x": 620,
+   "y": 2500,
+   "width": 470,
+   "height": 92,
+   "text": "**两级页表的逻辑地址结构及相关分析**\n`操作系统 · 5 年考过`\nPDF p198（原书 p.186）",
+   "color": "5"
+  },
+  {
+   "id": "n39",
+   "type": "text",
+   "x": 620,
+   "y": 2625,
+   "width": 470,
+   "height": 92,
+   "text": "**缺页处理的过程及效率分析**\n`操作系统 · 5 年考过`\nPDF p226（原书 p.214）",
+   "color": "5"
+  },
+  {
+   "id": "n40",
+   "type": "text",
+   "x": 620,
+   "y": 2750,
+   "width": 470,
+   "height": 92,
+   "text": "**CIDR 地址块的分析**\n`计算机网络 · 5 年考过`\nPDF p154（原书 p.142）",
+   "color": "3"
+  },
+  {
+   "id": "n41",
+   "type": "text",
+   "x": 620,
+   "y": 2875,
+   "width": 470,
+   "height": 92,
+   "text": "**路由聚合的原理**\n`计算机网络 · 5 年考过`\nPDF p155（原书 p.143）",
+   "color": "3"
+  },
+  {
+   "id": "n42",
+   "type": "text",
+   "x": 620,
+   "y": 3000,
+   "width": 470,
+   "height": 92,
+   "text": "**TCP 三次握手字段解析**\n`计算机网络 · 5 年考过`\nPDF p251（原书 p.239）",
+   "color": "3"
+  },
+  {
+   "id": "n43",
+   "type": "text",
+   "x": 620,
+   "y": 3125,
+   "width": 470,
+   "height": 92,
+   "text": "**拥塞避免算法的原理**\n`计算机网络 · 5 年考过`\nPDF p256（原书 p.244）",
+   "color": "3"
+  },
+  {
+   "id": "n44",
+   "type": "text",
+   "x": 620,
+   "y": 3250,
+   "width": 470,
+   "height": 92,
+   "text": "**完全二叉树的特性**\n`数据结构 · 4 年考过`\nPDF p142（原书 p.130）",
+   "color": "4"
+  },
+  {
+   "id": "n45",
+   "type": "text",
+   "x": 620,
+   "y": 3375,
+   "width": 470,
+   "height": 92,
+   "text": "**哈夫曼树的构造及相关分析**\n`数据结构 · 4 年考过`\nPDF p194（原书 p.182）",
+   "color": "4"
+  },
+  {
+   "id": "n46",
+   "type": "text",
+   "x": 620,
+   "y": 3500,
+   "width": 470,
+   "height": 92,
+   "text": "**Dijkstra 算法求解最短路径实例**\n`数据结构 · 4 年考过`\nPDF p241（原书 p.229）",
+   "color": "4"
+  },
+  {
+   "id": "n47",
+   "type": "text",
+   "x": 620,
+   "y": 3625,
+   "width": 470,
+   "height": 92,
+   "text": "**拓扑排序实例**\n`数据结构 · 4 年考过`\nPDF p245（原书 p.233）",
+   "color": "4"
+  },
+  {
+   "id": "n48",
+   "type": "text",
+   "x": 620,
+   "y": 3750,
+   "width": 470,
+   "height": 92,
+   "text": "**B树中关键字数和结点数的分析**\n`数据结构 · 4 年考过`\nPDF p317（原书 p.305）",
+   "color": "4"
+  },
+  {
+   "id": "n49",
+   "type": "text",
+   "x": 620,
+   "y": 3875,
+   "width": 470,
+   "height": 92,
+   "text": "**散列表的构造及查找效率分析**\n`数据结构 · 4 年考过`\nPDF p332（原书 p.320）",
+   "color": "4"
+  },
+  {
+   "id": "n50",
+   "type": "text",
+   "x": 620,
+   "y": 4000,
+   "width": 470,
+   "height": 92,
+   "text": "**补码的表示范围**\n`计算机组成原理 · 4 年考过`\nPDF p35（原书 p.23）",
+   "color": "6"
+  },
+  {
+   "id": "n51",
+   "type": "text",
+   "x": 620,
+   "y": 4125,
+   "width": 470,
+   "height": 92,
+   "text": "**整型类型的相互转换**\n`计算机组成原理 · 4 年考过`\nPDF p38（原书 p.26）",
+   "color": "6"
+  },
+  {
+   "id": "n52",
+   "type": "text",
+   "x": 620,
+   "y": 4250,
+   "width": 470,
+   "height": 92,
+   "text": "**补码的加减运算**\n`计算机组成原理 · 4 年考过`\nPDF p47（原书 p.35）",
+   "color": "6"
+  },
+  {
+   "id": "n53",
+   "type": "text",
+   "x": 620,
+   "y": 4375,
+   "width": 470,
+   "height": 92,
+   "text": "**各类标志位分析**\n`计算机组成原理 · 4 年考过`\nPDF p49（原书 p.37）",
+   "color": "6"
+  },
+  {
+   "id": "n54",
+   "type": "text",
+   "x": 620,
+   "y": 4500,
+   "width": 470,
+   "height": 92,
+   "text": "**数组的分页存放、缺页分析与处理过程**\n`计算机组成原理 · 4 年考过`\nPDF p143（原书 p.131）",
+   "color": "6"
+  },
+  {
+   "id": "n55",
+   "type": "text",
+   "x": 620,
+   "y": 4625,
+   "width": 470,
+   "height": 92,
+   "text": "**虚拟地址结构分析**\n`计算机组成原理 · 4 年考过`\nPDF p143（原书 p.131）",
+   "color": "6"
+  },
+  {
+   "id": "n56",
+   "type": "text",
+   "x": 620,
+   "y": 4750,
+   "width": 470,
+   "height": 92,
+   "text": "**虚拟地址与物理地址转换**\n`计算机组成原理 · 4 年考过`\nPDF p143（原书 p.131）",
+   "color": "6"
+  },
+  {
+   "id": "n57",
+   "type": "text",
+   "x": 620,
+   "y": 4875,
+   "width": 470,
+   "height": 92,
+   "text": "**PC 自增大小与编址方式、指令字长的关系**\n`计算机组成原理 · 4 年考过`\nPDF p168（原书 p.156）",
+   "color": "6"
+  },
+  {
+   "id": "n58",
+   "type": "text",
+   "x": 620,
+   "y": 5000,
+   "width": 470,
+   "height": 92,
+   "text": "**循环语句的机器级代码分析**\n`计算机组成原理 · 4 年考过`\nPDF p189（原书 p.177）",
+   "color": "6"
+  },
+  {
+   "id": "n59",
+   "type": "text",
+   "x": 620,
+   "y": 5125,
+   "width": 470,
+   "height": 92,
+   "text": "**对中断和异常事件的判断**\n`计算机组成原理 · 4 年考过`\nPDF p255（原书 p.243）",
+   "color": "6"
+  },
+  {
+   "id": "n60",
+   "type": "text",
+   "x": 620,
+   "y": 5250,
+   "width": 470,
+   "height": 92,
+   "text": "**中断工作流程中相关細节**\n`计算机组成原理 · 4 年考过`\nPDF p313（原书 p.301）",
+   "color": "6"
+  },
+  {
+   "id": "n61",
+   "type": "text",
+   "x": 620,
+   "y": 5375,
+   "width": 470,
+   "height": 92,
+   "text": "**多重中断的中断屏蔽字相关性质**\n`计算机组成原理 · 4 年考过`\nPDF p316（原书 p.304）",
+   "color": "6"
+  },
+  {
+   "id": "n62",
+   "type": "text",
+   "x": 620,
+   "y": 5500,
+   "width": 470,
+   "height": 92,
+   "text": "**两种模式下发生或执行的事件分析**\n`操作系统 · 4 年考过`\nPDF p28（原书 p.16）",
+   "color": "5"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e1",
+   "fromNode": "n18",
+   "toNode": "n1",
+   "color": "5"
+  },
+  {
+   "id": "e2",
+   "fromNode": "n18",
+   "toNode": "n3",
+   "color": "5"
+  },
+  {
+   "id": "e3",
+   "fromNode": "n18",
+   "toNode": "n5",
+   "color": "5"
+  },
+  {
+   "id": "e4",
+   "fromNode": "n18",
+   "toNode": "n6",
+   "color": "5"
+  },
+  {
+   "id": "e5",
+   "fromNode": "n18",
+   "toNode": "n7",
+   "color": "5"
+  },
+  {
+   "id": "e6",
+   "fromNode": "n18",
+   "toNode": "n9",
+   "color": "5"
+  },
+  {
+   "id": "e7",
+   "fromNode": "n18",
+   "toNode": "n11",
+   "color": "5"
+  },
+  {
+   "id": "e8",
+   "fromNode": "n18",
+   "toNode": "n17",
+   "color": "5"
+  },
+  {
+   "id": "e9",
+   "fromNode": "n19",
+   "toNode": "n2",
+   "color": "4"
+  },
+  {
+   "id": "e10",
+   "fromNode": "n19",
+   "toNode": "n5",
+   "color": "4"
+  },
+  {
+   "id": "e11",
+   "fromNode": "n19",
+   "toNode": "n7",
+   "color": "4"
+  },
+  {
+   "id": "e12",
+   "fromNode": "n19",
+   "toNode": "n8",
+   "color": "4"
+  },
+  {
+   "id": "e13",
+   "fromNode": "n19",
+   "toNode": "n10",
+   "color": "4"
+  },
+  {
+   "id": "e14",
+   "fromNode": "n19",
+   "toNode": "n13",
+   "color": "4"
+  },
+  {
+   "id": "e15",
+   "fromNode": "n19",
+   "toNode": "n17",
+   "color": "4"
+  },
+  {
+   "id": "e16",
+   "fromNode": "n20",
+   "toNode": "n4",
+   "color": "6"
+  },
+  {
+   "id": "e17",
+   "fromNode": "n20",
+   "toNode": "n6",
+   "color": "6"
+  },
+  {
+   "id": "e18",
+   "fromNode": "n20",
+   "toNode": "n7",
+   "color": "6"
+  },
+  {
+   "id": "e19",
+   "fromNode": "n20",
+   "toNode": "n9",
+   "color": "6"
+  },
+  {
+   "id": "e20",
+   "fromNode": "n20",
+   "toNode": "n11",
+   "color": "6"
+  },
+  {
+   "id": "e21",
+   "fromNode": "n20",
+   "toNode": "n15",
+   "color": "6"
+  },
+  {
+   "id": "e22",
+   "fromNode": "n20",
+   "toNode": "n16",
+   "color": "6"
+  },
+  {
+   "id": "e23",
+   "fromNode": "n21",
+   "toNode": "n1",
+   "color": "6"
+  },
+  {
+   "id": "e24",
+   "fromNode": "n21",
+   "toNode": "n5",
+   "color": "6"
+  },
+  {
+   "id": "e25",
+   "fromNode": "n21",
+   "toNode": "n6",
+   "color": "6"
+  },
+  {
+   "id": "e26",
+   "fromNode": "n21",
+   "toNode": "n10",
+   "color": "6"
+  },
+  {
+   "id": "e27",
+   "fromNode": "n21",
+   "toNode": "n12",
+   "color": "6"
+  },
+  {
+   "id": "e28",
+   "fromNode": "n21",
+   "toNode": "n16",
+   "color": "6"
+  },
+  {
+   "id": "e29",
+   "fromNode": "n21",
+   "toNode": "n17",
+   "color": "6"
+  },
+  {
+   "id": "e30",
+   "fromNode": "n22",
+   "toNode": "n3",
+   "color": "4"
+  },
+  {
+   "id": "e31",
+   "fromNode": "n22",
+   "toNode": "n6",
+   "color": "4"
+  },
+  {
+   "id": "e32",
+   "fromNode": "n22",
+   "toNode": "n9",
+   "color": "4"
+  },
+  {
+   "id": "e33",
+   "fromNode": "n22",
+   "toNode": "n11",
+   "color": "4"
+  },
+  {
+   "id": "e34",
+   "fromNode": "n22",
+   "toNode": "n14",
+   "color": "4"
+  },
+  {
+   "id": "e35",
+   "fromNode": "n22",
+   "toNode": "n17",
+   "color": "4"
+  },
+  {
+   "id": "e36",
+   "fromNode": "n23",
+   "toNode": "n1",
+   "color": "4"
+  },
+  {
+   "id": "e37",
+   "fromNode": "n23",
+   "toNode": "n4",
+   "color": "4"
+  },
+  {
+   "id": "e38",
+   "fromNode": "n23",
+   "toNode": "n5",
+   "color": "4"
+  },
+  {
+   "id": "e39",
+   "fromNode": "n23",
+   "toNode": "n7",
+   "color": "4"
+  },
+  {
+   "id": "e40",
+   "fromNode": "n23",
+   "toNode": "n8",
+   "color": "4"
+  },
+  {
+   "id": "e41",
+   "fromNode": "n23",
+   "toNode": "n11",
+   "color": "4"
+  },
+  {
+   "id": "e42",
+   "fromNode": "n24",
+   "toNode": "n2",
+   "color": "4"
+  },
+  {
+   "id": "e43",
+   "fromNode": "n24",
+   "toNode": "n3",
+   "color": "4"
+  },
+  {
+   "id": "e44",
+   "fromNode": "n24",
+   "toNode": "n5",
+   "color": "4"
+  },
+  {
+   "id": "e45",
+   "fromNode": "n24",
+   "toNode": "n10",
+   "color": "4"
+  },
+  {
+   "id": "e46",
+   "fromNode": "n24",
+   "toNode": "n12",
+   "color": "4"
+  },
+  {
+   "id": "e47",
+   "fromNode": "n24",
+   "toNode": "n14",
+   "color": "4"
+  },
+  {
+   "id": "e48",
+   "fromNode": "n25",
+   "toNode": "n1",
+   "color": "4"
+  },
+  {
+   "id": "e49",
+   "fromNode": "n25",
+   "toNode": "n2",
+   "color": "4"
+  },
+  {
+   "id": "e50",
+   "fromNode": "n25",
+   "toNode": "n9",
+   "color": "4"
+  },
+  {
+   "id": "e51",
+   "fromNode": "n25",
+   "toNode": "n12",
+   "color": "4"
+  },
+  {
+   "id": "e52",
+   "fromNode": "n25",
+   "toNode": "n14",
+   "color": "4"
+  },
+  {
+   "id": "e53",
+   "fromNode": "n25",
+   "toNode": "n17",
+   "color": "4"
+  },
+  {
+   "id": "e54",
+   "fromNode": "n26",
+   "toNode": "n4",
+   "color": "6"
+  },
+  {
+   "id": "e55",
+   "fromNode": "n26",
+   "toNode": "n5",
+   "color": "6"
+  },
+  {
+   "id": "e56",
+   "fromNode": "n26",
+   "toNode": "n6",
+   "color": "6"
+  },
+  {
+   "id": "e57",
+   "fromNode": "n26",
+   "toNode": "n9",
+   "color": "6"
+  },
+  {
+   "id": "e58",
+   "fromNode": "n26",
+   "toNode": "n14",
+   "color": "6"
+  },
+  {
+   "id": "e59",
+   "fromNode": "n26",
+   "toNode": "n15",
+   "color": "6"
+  },
+  {
+   "id": "e60",
+   "fromNode": "n27",
+   "toNode": "n2",
+   "color": "6"
+  },
+  {
+   "id": "e61",
+   "fromNode": "n27",
+   "toNode": "n3",
+   "color": "6"
+  },
+  {
+   "id": "e62",
+   "fromNode": "n27",
+   "toNode": "n6",
+   "color": "6"
+  },
+  {
+   "id": "e63",
+   "fromNode": "n27",
+   "toNode": "n10",
+   "color": "6"
+  },
+  {
+   "id": "e64",
+   "fromNode": "n27",
+   "toNode": "n13",
+   "color": "6"
+  },
+  {
+   "id": "e65",
+   "fromNode": "n27",
+   "toNode": "n17",
+   "color": "6"
+  },
+  {
+   "id": "e66",
+   "fromNode": "n28",
+   "toNode": "n3",
+   "color": "6"
+  },
+  {
+   "id": "e67",
+   "fromNode": "n28",
+   "toNode": "n5",
+   "color": "6"
+  },
+  {
+   "id": "e68",
+   "fromNode": "n28",
+   "toNode": "n12",
+   "color": "6"
+  },
+  {
+   "id": "e69",
+   "fromNode": "n28",
+   "toNode": "n14",
+   "color": "6"
+  },
+  {
+   "id": "e70",
+   "fromNode": "n28",
+   "toNode": "n15",
+   "color": "6"
+  },
+  {
+   "id": "e71",
+   "fromNode": "n28",
+   "toNode": "n17",
+   "color": "6"
+  },
+  {
+   "id": "e72",
+   "fromNode": "n29",
+   "toNode": "n1",
+   "color": "6"
+  },
+  {
+   "id": "e73",
+   "fromNode": "n29",
+   "toNode": "n2",
+   "color": "6"
+  },
+  {
+   "id": "e74",
+   "fromNode": "n29",
+   "toNode": "n5",
+   "color": "6"
+  },
+  {
+   "id": "e75",
+   "fromNode": "n29",
+   "toNode": "n6",
+   "color": "6"
+  },
+  {
+   "id": "e76",
+   "fromNode": "n29",
+   "toNode": "n11",
+   "color": "6"
+  },
+  {
+   "id": "e77",
+   "fromNode": "n29",
+   "toNode": "n15",
+   "color": "6"
+  },
+  {
+   "id": "e78",
+   "fromNode": "n30",
+   "toNode": "n1",
+   "color": "5"
+  },
+  {
+   "id": "e79",
+   "fromNode": "n30",
+   "toNode": "n2",
+   "color": "5"
+  },
+  {
+   "id": "e80",
+   "fromNode": "n30",
+   "toNode": "n5",
+   "color": "5"
+  },
+  {
+   "id": "e81",
+   "fromNode": "n30",
+   "toNode": "n7",
+   "color": "5"
+  },
+  {
+   "id": "e82",
+   "fromNode": "n30",
+   "toNode": "n9",
+   "color": "5"
+  },
+  {
+   "id": "e83",
+   "fromNode": "n30",
+   "toNode": "n16",
+   "color": "5"
+  },
+  {
+   "id": "e84",
+   "fromNode": "n31",
+   "toNode": "n2",
+   "color": "4"
+  },
+  {
+   "id": "e85",
+   "fromNode": "n31",
+   "toNode": "n3",
+   "color": "4"
+  },
+  {
+   "id": "e86",
+   "fromNode": "n31",
+   "toNode": "n10",
+   "color": "4"
+  },
+  {
+   "id": "e87",
+   "fromNode": "n31",
+   "toNode": "n12",
+   "color": "4"
+  },
+  {
+   "id": "e88",
+   "fromNode": "n31",
+   "toNode": "n17",
+   "color": "4"
+  },
+  {
+   "id": "e89",
+   "fromNode": "n32",
+   "toNode": "n8",
+   "color": "6"
+  },
+  {
+   "id": "e90",
+   "fromNode": "n32",
+   "toNode": "n10",
+   "color": "6"
+  },
+  {
+   "id": "e91",
+   "fromNode": "n32",
+   "toNode": "n11",
+   "color": "6"
+  },
+  {
+   "id": "e92",
+   "fromNode": "n32",
+   "toNode": "n16",
+   "color": "6"
+  },
+  {
+   "id": "e93",
+   "fromNode": "n32",
+   "toNode": "n17",
+   "color": "6"
+  },
+  {
+   "id": "e94",
+   "fromNode": "n33",
+   "toNode": "n1",
+   "color": "6"
+  },
+  {
+   "id": "e95",
+   "fromNode": "n33",
+   "toNode": "n8",
+   "color": "6"
+  },
+  {
+   "id": "e96",
+   "fromNode": "n33",
+   "toNode": "n10",
+   "color": "6"
+  },
+  {
+   "id": "e97",
+   "fromNode": "n33",
+   "toNode": "n12",
+   "color": "6"
+  },
+  {
+   "id": "e98",
+   "fromNode": "n33",
+   "toNode": "n15",
+   "color": "6"
+  },
+  {
+   "id": "e99",
+   "fromNode": "n34",
+   "toNode": "n4",
+   "color": "6"
+  },
+  {
+   "id": "e100",
+   "fromNode": "n34",
+   "toNode": "n6",
+   "color": "6"
+  },
+  {
+   "id": "e101",
+   "fromNode": "n34",
+   "toNode": "n8",
+   "color": "6"
+  },
+  {
+   "id": "e102",
+   "fromNode": "n34",
+   "toNode": "n11",
+   "color": "6"
+  },
+  {
+   "id": "e103",
+   "fromNode": "n34",
+   "toNode": "n15",
+   "color": "6"
+  },
+  {
+   "id": "e104",
+   "fromNode": "n35",
+   "toNode": "n1",
+   "color": "6"
+  },
+  {
+   "id": "e105",
+   "fromNode": "n35",
+   "toNode": "n6",
+   "color": "6"
+  },
+  {
+   "id": "e106",
+   "fromNode": "n35",
+   "toNode": "n8",
+   "color": "6"
+  },
+  {
+   "id": "e107",
+   "fromNode": "n35",
+   "toNode": "n10",
+   "color": "6"
+  },
+  {
+   "id": "e108",
+   "fromNode": "n35",
+   "toNode": "n11",
+   "color": "6"
+  },
+  {
+   "id": "e109",
+   "fromNode": "n36",
+   "toNode": "n6",
+   "color": "5"
+  },
+  {
+   "id": "e110",
+   "fromNode": "n36",
+   "toNode": "n7",
+   "color": "5"
+  },
+  {
+   "id": "e111",
+   "fromNode": "n36",
+   "toNode": "n10",
+   "color": "5"
+  },
+  {
+   "id": "e112",
+   "fromNode": "n36",
+   "toNode": "n15",
+   "color": "5"
+  },
+  {
+   "id": "e113",
+   "fromNode": "n36",
+   "toNode": "n17",
+   "color": "5"
+  },
+  {
+   "id": "e114",
+   "fromNode": "n37",
+   "toNode": "n3",
+   "color": "5"
+  },
+  {
+   "id": "e115",
+   "fromNode": "n37",
+   "toNode": "n4",
+   "color": "5"
+  },
+  {
+   "id": "e116",
+   "fromNode": "n37",
+   "toNode": "n10",
+   "color": "5"
+  },
+  {
+   "id": "e117",
+   "fromNode": "n37",
+   "toNode": "n12",
+   "color": "5"
+  },
+  {
+   "id": "e118",
+   "fromNode": "n37",
+   "toNode": "n14",
+   "color": "5"
+  },
+  {
+   "id": "e119",
+   "fromNode": "n38",
+   "toNode": "n2",
+   "color": "5"
+  },
+  {
+   "id": "e120",
+   "fromNode": "n38",
+   "toNode": "n5",
+   "color": "5"
+  },
+  {
+   "id": "e121",
+   "fromNode": "n38",
+   "toNode": "n7",
+   "color": "5"
+  },
+  {
+   "id": "e122",
+   "fromNode": "n38",
+   "toNode": "n9",
+   "color": "5"
+  },
+  {
+   "id": "e123",
+   "fromNode": "n38",
+   "toNode": "n11",
+   "color": "5"
+  },
+  {
+   "id": "e124",
+   "fromNode": "n39",
+   "toNode": "n3",
+   "color": "5"
+  },
+  {
+   "id": "e125",
+   "fromNode": "n39",
+   "toNode": "n5",
+   "color": "5"
+  },
+  {
+   "id": "e126",
+   "fromNode": "n39",
+   "toNode": "n6",
+   "color": "5"
+  },
+  {
+   "id": "e127",
+   "fromNode": "n39",
+   "toNode": "n12",
+   "color": "5"
+  },
+  {
+   "id": "e128",
+   "fromNode": "n39",
+   "toNode": "n14",
+   "color": "5"
+  },
+  {
+   "id": "e129",
+   "fromNode": "n40",
+   "toNode": "n3",
+   "color": "3"
+  },
+  {
+   "id": "e130",
+   "fromNode": "n40",
+   "toNode": "n7",
+   "color": "3"
+  },
+  {
+   "id": "e131",
+   "fromNode": "n40",
+   "toNode": "n8",
+   "color": "3"
+  },
+  {
+   "id": "e132",
+   "fromNode": "n40",
+   "toNode": "n11",
+   "color": "3"
+  },
+  {
+   "id": "e133",
+   "fromNode": "n40",
+   "toNode": "n15",
+   "color": "3"
+  },
+  {
+   "id": "e134",
+   "fromNode": "n41",
+   "toNode": "n1",
+   "color": "3"
+  },
+  {
+   "id": "e135",
+   "fromNode": "n41",
+   "toNode": "n3",
+   "color": "3"
+  },
+  {
+   "id": "e136",
+   "fromNode": "n41",
+   "toNode": "n5",
+   "color": "3"
+  },
+  {
+   "id": "e137",
+   "fromNode": "n41",
+   "toNode": "n6",
+   "color": "3"
+  },
+  {
+   "id": "e138",
+   "fromNode": "n41",
+   "toNode": "n10",
+   "color": "3"
+  },
+  {
+   "id": "e139",
+   "fromNode": "n42",
+   "toNode": "n3",
+   "color": "3"
+  },
+  {
+   "id": "e140",
+   "fromNode": "n42",
+   "toNode": "n4",
+   "color": "3"
+  },
+  {
+   "id": "e141",
+   "fromNode": "n42",
+   "toNode": "n8",
+   "color": "3"
+  },
+  {
+   "id": "e142",
+   "fromNode": "n42",
+   "toNode": "n11",
+   "color": "3"
+  },
+  {
+   "id": "e143",
+   "fromNode": "n42",
+   "toNode": "n15",
+   "color": "3"
+  },
+  {
+   "id": "e144",
+   "fromNode": "n43",
+   "toNode": "n1",
+   "color": "3"
+  },
+  {
+   "id": "e145",
+   "fromNode": "n43",
+   "toNode": "n9",
+   "color": "3"
+  },
+  {
+   "id": "e146",
+   "fromNode": "n43",
+   "toNode": "n12",
+   "color": "3"
+  },
+  {
+   "id": "e147",
+   "fromNode": "n43",
+   "toNode": "n14",
+   "color": "3"
+  },
+  {
+   "id": "e148",
+   "fromNode": "n43",
+   "toNode": "n15",
+   "color": "3"
+  },
+  {
+   "id": "e149",
+   "fromNode": "n44",
+   "toNode": "n1",
+   "color": "4"
+  },
+  {
+   "id": "e150",
+   "fromNode": "n44",
+   "toNode": "n3",
+   "color": "4"
+  },
+  {
+   "id": "e151",
+   "fromNode": "n44",
+   "toNode": "n10",
+   "color": "4"
+  },
+  {
+   "id": "e152",
+   "fromNode": "n44",
+   "toNode": "n17",
+   "color": "4"
+  },
+  {
+   "id": "e153",
+   "fromNode": "n45",
+   "toNode": "n4",
+   "color": "4"
+  },
+  {
+   "id": "e154",
+   "fromNode": "n45",
+   "toNode": "n10",
+   "color": "4"
+  },
+  {
+   "id": "e155",
+   "fromNode": "n45",
+   "toNode": "n13",
+   "color": "4"
+  },
+  {
+   "id": "e156",
+   "fromNode": "n45",
+   "toNode": "n15",
+   "color": "4"
+  },
+  {
+   "id": "e157",
+   "fromNode": "n46",
+   "toNode": "n4",
+   "color": "4"
+  },
+  {
+   "id": "e158",
+   "fromNode": "n46",
+   "toNode": "n6",
+   "color": "4"
+  },
+  {
+   "id": "e159",
+   "fromNode": "n46",
+   "toNode": "n8",
+   "color": "4"
+  },
+  {
+   "id": "e160",
+   "fromNode": "n46",
+   "toNode": "n13",
+   "color": "4"
+  },
+  {
+   "id": "e161",
+   "fromNode": "n47",
+   "toNode": "n2",
+   "color": "4"
+  },
+  {
+   "id": "e162",
+   "fromNode": "n47",
+   "toNode": "n6",
+   "color": "4"
+  },
+  {
+   "id": "e163",
+   "fromNode": "n47",
+   "toNode": "n10",
+   "color": "4"
+  },
+  {
+   "id": "e164",
+   "fromNode": "n47",
+   "toNode": "n13",
+   "color": "4"
+  },
+  {
+   "id": "e165",
+   "fromNode": "n48",
+   "toNode": "n5",
+   "color": "4"
+  },
+  {
+   "id": "e166",
+   "fromNode": "n48",
+   "toNode": "n6",
+   "color": "4"
+  },
+  {
+   "id": "e167",
+   "fromNode": "n48",
+   "toNode": "n10",
+   "color": "4"
+  },
+  {
+   "id": "e168",
+   "fromNode": "n48",
+   "toNode": "n13",
+   "color": "4"
+  },
+  {
+   "id": "e169",
+   "fromNode": "n49",
+   "toNode": "n2",
+   "color": "4"
+  },
+  {
+   "id": "e170",
+   "fromNode": "n49",
+   "toNode": "n10",
+   "color": "4"
+  },
+  {
+   "id": "e171",
+   "fromNode": "n49",
+   "toNode": "n11",
+   "color": "4"
+  },
+  {
+   "id": "e172",
+   "fromNode": "n49",
+   "toNode": "n16",
+   "color": "4"
+  },
+  {
+   "id": "e173",
+   "fromNode": "n50",
+   "toNode": "n2",
+   "color": "6"
+  },
+  {
+   "id": "e174",
+   "fromNode": "n50",
+   "toNode": "n5",
+   "color": "6"
+  },
+  {
+   "id": "e175",
+   "fromNode": "n50",
+   "toNode": "n6",
+   "color": "6"
+  },
+  {
+   "id": "e176",
+   "fromNode": "n50",
+   "toNode": "n14",
+   "color": "6"
+  },
+  {
+   "id": "e177",
+   "fromNode": "n51",
+   "toNode": "n3",
+   "color": "6"
+  },
+  {
+   "id": "e178",
+   "fromNode": "n51",
+   "toNode": "n8",
+   "color": "6"
+  },
+  {
+   "id": "e179",
+   "fromNode": "n51",
+   "toNode": "n11",
+   "color": "6"
+  },
+  {
+   "id": "e180",
+   "fromNode": "n51",
+   "toNode": "n16",
+   "color": "6"
+  },
+  {
+   "id": "e181",
+   "fromNode": "n52",
+   "toNode": "n1",
+   "color": "6"
+  },
+  {
+   "id": "e182",
+   "fromNode": "n52",
+   "toNode": "n3",
+   "color": "6"
+  },
+  {
+   "id": "e183",
+   "fromNode": "n52",
+   "toNode": "n9",
+   "color": "6"
+  },
+  {
+   "id": "e184",
+   "fromNode": "n52",
+   "toNode": "n17",
+   "color": "6"
+  },
+  {
+   "id": "e185",
+   "fromNode": "n53",
+   "toNode": "n3",
+   "color": "6"
+  },
+  {
+   "id": "e186",
+   "fromNode": "n53",
+   "toNode": "n10",
+   "color": "6"
+  },
+  {
+   "id": "e187",
+   "fromNode": "n53",
+   "toNode": "n14",
+   "color": "6"
+  },
+  {
+   "id": "e188",
+   "fromNode": "n53",
+   "toNode": "n16",
+   "color": "6"
+  },
+  {
+   "id": "e189",
+   "fromNode": "n54",
+   "toNode": "n6",
+   "color": "6"
+  },
+  {
+   "id": "e190",
+   "fromNode": "n54",
+   "toNode": "n11",
+   "color": "6"
+  },
+  {
+   "id": "e191",
+   "fromNode": "n54",
+   "toNode": "n15",
+   "color": "6"
+  },
+  {
+   "id": "e192",
+   "fromNode": "n54",
+   "toNode": "n17",
+   "color": "6"
+  },
+  {
+   "id": "e193",
+   "fromNode": "n55",
+   "toNode": "n3",
+   "color": "6"
+  },
+  {
+   "id": "e194",
+   "fromNode": "n55",
+   "toNode": "n11",
+   "color": "6"
+  },
+  {
+   "id": "e195",
+   "fromNode": "n55",
+   "toNode": "n13",
+   "color": "6"
+  },
+  {
+   "id": "e196",
+   "fromNode": "n55",
+   "toNode": "n16",
+   "color": "6"
+  },
+  {
+   "id": "e197",
+   "fromNode": "n56",
+   "toNode": "n3",
+   "color": "6"
+  },
+  {
+   "id": "e198",
+   "fromNode": "n56",
+   "toNode": "n5",
+   "color": "6"
+  },
+  {
+   "id": "e199",
+   "fromNode": "n56",
+   "toNode": "n10",
+   "color": "6"
+  },
+  {
+   "id": "e200",
+   "fromNode": "n56",
+   "toNode": "n14",
+   "color": "6"
+  },
+  {
+   "id": "e201",
+   "fromNode": "n57",
+   "toNode": "n5",
+   "color": "6"
+  },
+  {
+   "id": "e202",
+   "fromNode": "n57",
+   "toNode": "n6",
+   "color": "6"
+  },
+  {
+   "id": "e203",
+   "fromNode": "n57",
+   "toNode": "n11",
+   "color": "6"
+  },
+  {
+   "id": "e204",
+   "fromNode": "n57",
+   "toNode": "n15",
+   "color": "6"
+  },
+  {
+   "id": "e205",
+   "fromNode": "n58",
+   "toNode": "n6",
+   "color": "6"
+  },
+  {
+   "id": "e206",
+   "fromNode": "n58",
+   "toNode": "n9",
+   "color": "6"
+  },
+  {
+   "id": "e207",
+   "fromNode": "n58",
+   "toNode": "n11",
+   "color": "6"
+  },
+  {
+   "id": "e208",
+   "fromNode": "n58",
+   "toNode": "n15",
+   "color": "6"
+  },
+  {
+   "id": "e209",
+   "fromNode": "n59",
+   "toNode": "n1",
+   "color": "6"
+  },
+  {
+   "id": "e210",
+   "fromNode": "n59",
+   "toNode": "n8",
+   "color": "6"
+  },
+  {
+   "id": "e211",
+   "fromNode": "n59",
+   "toNode": "n12",
+   "color": "6"
+  },
+  {
+   "id": "e212",
+   "fromNode": "n59",
+   "toNode": "n17",
+   "color": "6"
+  },
+  {
+   "id": "e213",
+   "fromNode": "n60",
+   "toNode": "n9",
+   "color": "6"
+  },
+  {
+   "id": "e214",
+   "fromNode": "n60",
+   "toNode": "n10",
+   "color": "6"
+  },
+  {
+   "id": "e215",
+   "fromNode": "n60",
+   "toNode": "n13",
+   "color": "6"
+  },
+  {
+   "id": "e216",
+   "fromNode": "n60",
+   "toNode": "n16",
+   "color": "6"
+  },
+  {
+   "id": "e217",
+   "fromNode": "n61",
+   "toNode": "n9",
+   "color": "6"
+  },
+  {
+   "id": "e218",
+   "fromNode": "n61",
+   "toNode": "n12",
+   "color": "6"
+  },
+  {
+   "id": "e219",
+   "fromNode": "n61",
+   "toNode": "n13",
+   "color": "6"
+  },
+  {
+   "id": "e220",
+   "fromNode": "n61",
+   "toNode": "n16",
+   "color": "6"
+  },
+  {
+   "id": "e221",
+   "fromNode": "n62",
+   "toNode": "n3",
+   "color": "5"
+  },
+  {
+   "id": "e222",
+   "fromNode": "n62",
+   "toNode": "n4",
+   "color": "5"
+  },
+  {
+   "id": "e223",
+   "fromNode": "n62",
+   "toNode": "n6",
+   "color": "5"
+  },
+  {
+   "id": "e224",
+   "fromNode": "n62",
+   "toNode": "n13",
+   "color": "5"
+  }
+ ]
+}

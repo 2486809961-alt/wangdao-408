@@ -1,0 +1,688 @@
+{
+ "nodes": [
+  {
+   "id": "n1",
+   "type": "text",
+   "x": 0,
+   "y": 0,
+   "width": 300,
+   "height": 810,
+   "text": "## 计算机网络\n\n6 章 · **153** 个考点\n\n[[计算机网络·考点总览]]",
+   "color": "3"
+  },
+  {
+   "id": "n2",
+   "type": "text",
+   "x": 430,
+   "y": 0,
+   "width": 340,
+   "height": 730,
+   "text": "**第1章 计算机网络体系结构**\n\nPDF p13–41\n原书 p.1–29\n\n[[N01 计算机网络 第01章 计算机网络体系结构/本章复盘]]",
+   "color": "1"
+  },
+  {
+   "id": "n3",
+   "type": "text",
+   "x": 880,
+   "y": 100,
+   "width": 430,
+   "height": 78,
+   "text": "OSI 参考模型层次结构\n`4 年 · 2013、2014、2017、2019`",
+   "color": "3"
+  },
+  {
+   "id": "n4",
+   "type": "text",
+   "x": 880,
+   "y": 200,
+   "width": 430,
+   "height": 78,
+   "text": "分组交换的时延分析\n`4 年 · 2010、2013、2023、2025`",
+   "color": "3"
+  },
+  {
+   "id": "n5",
+   "type": "text",
+   "x": 880,
+   "y": 300,
+   "width": 430,
+   "height": 78,
+   "text": "网络时延的分析\n`4 年 · 2010、2013、2023、2025`",
+   "color": "3"
+  },
+  {
+   "id": "n6",
+   "type": "text",
+   "x": 880,
+   "y": 400,
+   "width": 430,
+   "height": 78,
+   "text": "TCP/IP 模型中网际层功能\n`2 年 · 2011、2021`",
+   "color": "3"
+  },
+  {
+   "id": "n7",
+   "type": "text",
+   "x": 880,
+   "y": 500,
+   "width": 430,
+   "height": 78,
+   "text": "报文交换时延分析\n`2 年 · 2013、2025`",
+   "color": "3"
+  },
+  {
+   "id": "n8",
+   "type": "text",
+   "x": 880,
+   "y": 600,
+   "width": 430,
+   "height": 78,
+   "text": "OSI 参考模型中会话层的功能\n`1 年 · 2019`",
+   "color": "3"
+  },
+  {
+   "id": "n9",
+   "type": "text",
+   "x": 430,
+   "y": 775,
+   "width": 340,
+   "height": 730,
+   "text": "**第2章 物理层**\n\nPDF p42–61\n原书 p.30–49\n\n[[N02 计算机网络 第02章 物理层/本章复盘]]",
+   "color": "1"
+  },
+  {
+   "id": "n10",
+   "type": "text",
+   "x": 880,
+   "y": 875,
+   "width": 430,
+   "height": 78,
+   "text": "奈氏准则应用\n`4 年 · 2009、2014、2022、2023`",
+   "color": "3"
+  },
+  {
+   "id": "n11",
+   "type": "text",
+   "x": 880,
+   "y": 975,
+   "width": 430,
+   "height": 78,
+   "text": "比特率与波特率的关系\n`3 年 · 2011、2014、2022`",
+   "color": "3"
+  },
+  {
+   "id": "n12",
+   "type": "text",
+   "x": 880,
+   "y": 1075,
+   "width": 430,
+   "height": 78,
+   "text": "QAM 调制阶数与码元比特数的关系\n`2 年 · 2009、2023`",
+   "color": "3"
+  },
+  {
+   "id": "n13",
+   "type": "text",
+   "x": 880,
+   "y": 1175,
+   "width": 430,
+   "height": 78,
+   "text": "曼彻斯特编码的波形特性\n`2 年 · 2013、2015`",
+   "color": "3"
+  },
+  {
+   "id": "n14",
+   "type": "text",
+   "x": 880,
+   "y": 1275,
+   "width": 430,
+   "height": 78,
+   "text": "物理层接口特性\n`2 年 · 2012、2018`",
+   "color": "3"
+  },
+  {
+   "id": "n15",
+   "type": "text",
+   "x": 880,
+   "y": 1375,
+   "width": 430,
+   "height": 78,
+   "text": "物理层设备对冲突域和广播域°的影响\n`2 年 · 2010、2020`",
+   "color": "3"
+  },
+  {
+   "id": "n16",
+   "type": "text",
+   "x": 430,
+   "y": 1550,
+   "width": 340,
+   "height": 730,
+   "text": "**第3章 数据链路层**\n\nPDF p62–138\n原书 p.50–126\n\n[[N03 计算机网络 第03章 数据链路层/本章复盘]]",
+   "color": "1"
+  },
+  {
+   "id": "n17",
+   "type": "text",
+   "x": 880,
+   "y": 1650,
+   "width": 430,
+   "height": 78,
+   "text": "CSMAICD 协议中最短帧长的原理与计算\n`4 年 · 2009、2016、2019、2022`",
+   "color": "3"
+  },
+  {
+   "id": "n18",
+   "type": "text",
+   "x": 880,
+   "y": 1750,
+   "width": 430,
+   "height": 78,
+   "text": "GBN 协议的信道利用率分析\n`3 年 · 2012、2015、2017`",
+   "color": "3"
+  },
+  {
+   "id": "n19",
+   "type": "text",
+   "x": 880,
+   "y": 1850,
+   "width": 430,
+   "height": 78,
+   "text": "GBN 协议的滑动窗口机制\n`3 年 · 2012、2015、2017`",
+   "color": "3"
+  },
+  {
+   "id": "n20",
+   "type": "text",
+   "x": 880,
+   "y": 1950,
+   "width": 430,
+   "height": 78,
+   "text": "交换机 MAC 地址学习过程\n`3 年 · 2014、2016、2021`",
+   "color": "3"
+  },
+  {
+   "id": "n21",
+   "type": "text",
+   "x": 880,
+   "y": 2050,
+   "width": 430,
+   "height": 78,
+   "text": "滑动窗口协议的数据传输速率分析\n`3 年 · 2009、2010、2014`",
+   "color": "3"
+  },
+  {
+   "id": "n22",
+   "type": "text",
+   "x": 880,
+   "y": 2150,
+   "width": 430,
+   "height": 78,
+   "text": "1帧前三地址字段的作用\n`2 年 · 2017、2022`",
+   "color": "3"
+  },
+  {
+   "id": "n23",
+   "type": "text",
+   "x": 430,
+   "y": 2325,
+   "width": 340,
+   "height": 730,
+   "text": "**第4章 网络层**\n\nPDF p139–235\n原书 p.127–223\n\n[[N04 计算机网络 第04章 网络层/本章复盘]]",
+   "color": "1"
+  },
+  {
+   "id": "n24",
+   "type": "text",
+   "x": 880,
+   "y": 2425,
+   "width": 430,
+   "height": 78,
+   "text": "CIDR 地址块的分析\n`5 年 · 2011、2015、2016、2019、2023`",
+   "color": "3"
+  },
+  {
+   "id": "n25",
+   "type": "text",
+   "x": 880,
+   "y": 2525,
+   "width": 430,
+   "height": 78,
+   "text": "路由聚合的原理\n`5 年 · 2009、2011、2013、2014、2018`",
+   "color": "3"
+  },
+  {
+   "id": "n26",
+   "type": "text",
+   "x": 880,
+   "y": 2625,
+   "width": 430,
+   "height": 78,
+   "text": "NAT工作原理\n`4 年 · 2016、2019、2020、2023`",
+   "color": "3"
+  },
+  {
+   "id": "n27",
+   "type": "text",
+   "x": 880,
+   "y": 2725,
+   "width": 430,
+   "height": 78,
+   "text": "子网地址与子网广播地址分析\n`4 年 · 2011、2012、2018、2019`",
+   "color": "3"
+  },
+  {
+   "id": "n28",
+   "type": "text",
+   "x": 880,
+   "y": 2825,
+   "width": 430,
+   "height": 78,
+   "text": "定长掩码子网划分的应用\n`4 年 · 2009、2010、2017、2018`",
+   "color": "3"
+  },
+  {
+   "id": "n29",
+   "type": "text",
+   "x": 880,
+   "y": 2925,
+   "width": 430,
+   "height": 78,
+   "text": "默认网关与子网掩码的配置\n`4 年 · 2015、2016、2019、2022`",
+   "color": "3"
+  },
+  {
+   "id": "n30",
+   "type": "text",
+   "x": 430,
+   "y": 3100,
+   "width": 340,
+   "height": 730,
+   "text": "**第5章 传输层**\n\nPDF p236–278\n原书 p.224–266\n\n[[N05 计算机网络 第05章 传输层/本章复盘]]",
+   "color": "1"
+  },
+  {
+   "id": "n31",
+   "type": "text",
+   "x": 880,
+   "y": 3200,
+   "width": 430,
+   "height": 78,
+   "text": "TCP 三次握手字段解析\n`5 年 · 2011、2012、2016、2019、2023`",
+   "color": "3"
+  },
+  {
+   "id": "n32",
+   "type": "text",
+   "x": 880,
+   "y": 3300,
+   "width": 430,
+   "height": 78,
+   "text": "拥塞避免算法的原理\n`5 年 · 2009、2017、2020、2022、2023`",
+   "color": "3"
+  },
+  {
+   "id": "n33",
+   "type": "text",
+   "x": 880,
+   "y": 3400,
+   "width": 430,
+   "height": 78,
+   "text": "TCP 序号与确认机制\n`4 年 · 2011、2012、2013、2025`",
+   "color": "3"
+  },
+  {
+   "id": "n34",
+   "type": "text",
+   "x": 880,
+   "y": 3500,
+   "width": 430,
+   "height": 78,
+   "text": "TCP 滑动窗口机制\n`4 年 · 2010、2014、2016、2025`",
+   "color": "3"
+  },
+  {
+   "id": "n35",
+   "type": "text",
+   "x": 880,
+   "y": 3600,
+   "width": 430,
+   "height": 78,
+   "text": "TCP 连接释放的时间分析\n`3 年 · 2016、2022、2024`",
+   "color": "3"
+  },
+  {
+   "id": "n36",
+   "type": "text",
+   "x": 880,
+   "y": 3700,
+   "width": 430,
+   "height": 78,
+   "text": "慢开始算法的原理\n`3 年 · 2014、2015、2025`",
+   "color": "3"
+  },
+  {
+   "id": "n37",
+   "type": "text",
+   "x": 430,
+   "y": 3875,
+   "width": 340,
+   "height": 730,
+   "text": "**第6章 应用层**\n\nPDF p279–315\n原书 p.267–303\n\n[[N06 计算机网络 第06章 应用层/本章复盘]]",
+   "color": "1"
+  },
+  {
+   "id": "n38",
+   "type": "text",
+   "x": 880,
+   "y": 3975,
+   "width": 430,
+   "height": 78,
+   "text": "POP3协议的功能与特点\n`3 年 · 2015、2018、2025`",
+   "color": "3"
+  },
+  {
+   "id": "n39",
+   "type": "text",
+   "x": 880,
+   "y": 4075,
+   "width": 430,
+   "height": 78,
+   "text": "SMTP 协议的功能与特点\n`3 年 · 2013、2015、2025`",
+   "color": "3"
+  },
+  {
+   "id": "n40",
+   "type": "text",
+   "x": 880,
+   "y": 4175,
+   "width": 430,
+   "height": 78,
+   "text": "DNS 迭代查询机制\n`2 年 · 2016、2020`",
+   "color": "3"
+  },
+  {
+   "id": "n41",
+   "type": "text",
+   "x": 880,
+   "y": 4275,
+   "width": 430,
+   "height": 78,
+   "text": "DNS使用的传输层及以下协议\n`2 年 · 2018、2021`",
+   "color": "3"
+  },
+  {
+   "id": "n42",
+   "type": "text",
+   "x": 880,
+   "y": 4375,
+   "width": 430,
+   "height": 78,
+   "text": "FTP 在传输层使用的协议\n`2 年 · 2009、2018`",
+   "color": "3"
+  },
+  {
+   "id": "n43",
+   "type": "text",
+   "x": 880,
+   "y": 4475,
+   "width": 430,
+   "height": 78,
+   "text": "FTP 控制连接和数据连接的特点\n`2 年 · 2017、2023`",
+   "color": "3"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e1",
+   "fromNode": "n1",
+   "toNode": "n2",
+   "color": "3"
+  },
+  {
+   "id": "e2",
+   "fromNode": "n2",
+   "toNode": "n3",
+   "color": "3"
+  },
+  {
+   "id": "e3",
+   "fromNode": "n2",
+   "toNode": "n4",
+   "color": "3"
+  },
+  {
+   "id": "e4",
+   "fromNode": "n2",
+   "toNode": "n5",
+   "color": "3"
+  },
+  {
+   "id": "e5",
+   "fromNode": "n2",
+   "toNode": "n6",
+   "color": "3"
+  },
+  {
+   "id": "e6",
+   "fromNode": "n2",
+   "toNode": "n7",
+   "color": "3"
+  },
+  {
+   "id": "e7",
+   "fromNode": "n2",
+   "toNode": "n8",
+   "color": "3"
+  },
+  {
+   "id": "e8",
+   "fromNode": "n1",
+   "toNode": "n9",
+   "color": "3"
+  },
+  {
+   "id": "e9",
+   "fromNode": "n9",
+   "toNode": "n10",
+   "color": "3"
+  },
+  {
+   "id": "e10",
+   "fromNode": "n9",
+   "toNode": "n11",
+   "color": "3"
+  },
+  {
+   "id": "e11",
+   "fromNode": "n9",
+   "toNode": "n12",
+   "color": "3"
+  },
+  {
+   "id": "e12",
+   "fromNode": "n9",
+   "toNode": "n13",
+   "color": "3"
+  },
+  {
+   "id": "e13",
+   "fromNode": "n9",
+   "toNode": "n14",
+   "color": "3"
+  },
+  {
+   "id": "e14",
+   "fromNode": "n9",
+   "toNode": "n15",
+   "color": "3"
+  },
+  {
+   "id": "e15",
+   "fromNode": "n1",
+   "toNode": "n16",
+   "color": "3"
+  },
+  {
+   "id": "e16",
+   "fromNode": "n16",
+   "toNode": "n17",
+   "color": "3"
+  },
+  {
+   "id": "e17",
+   "fromNode": "n16",
+   "toNode": "n18",
+   "color": "3"
+  },
+  {
+   "id": "e18",
+   "fromNode": "n16",
+   "toNode": "n19",
+   "color": "3"
+  },
+  {
+   "id": "e19",
+   "fromNode": "n16",
+   "toNode": "n20",
+   "color": "3"
+  },
+  {
+   "id": "e20",
+   "fromNode": "n16",
+   "toNode": "n21",
+   "color": "3"
+  },
+  {
+   "id": "e21",
+   "fromNode": "n16",
+   "toNode": "n22",
+   "color": "3"
+  },
+  {
+   "id": "e22",
+   "fromNode": "n1",
+   "toNode": "n23",
+   "color": "3"
+  },
+  {
+   "id": "e23",
+   "fromNode": "n23",
+   "toNode": "n24",
+   "color": "3"
+  },
+  {
+   "id": "e24",
+   "fromNode": "n23",
+   "toNode": "n25",
+   "color": "3"
+  },
+  {
+   "id": "e25",
+   "fromNode": "n23",
+   "toNode": "n26",
+   "color": "3"
+  },
+  {
+   "id": "e26",
+   "fromNode": "n23",
+   "toNode": "n27",
+   "color": "3"
+  },
+  {
+   "id": "e27",
+   "fromNode": "n23",
+   "toNode": "n28",
+   "color": "3"
+  },
+  {
+   "id": "e28",
+   "fromNode": "n23",
+   "toNode": "n29",
+   "color": "3"
+  },
+  {
+   "id": "e29",
+   "fromNode": "n1",
+   "toNode": "n30",
+   "color": "3"
+  },
+  {
+   "id": "e30",
+   "fromNode": "n30",
+   "toNode": "n31",
+   "color": "3"
+  },
+  {
+   "id": "e31",
+   "fromNode": "n30",
+   "toNode": "n32",
+   "color": "3"
+  },
+  {
+   "id": "e32",
+   "fromNode": "n30",
+   "toNode": "n33",
+   "color": "3"
+  },
+  {
+   "id": "e33",
+   "fromNode": "n30",
+   "toNode": "n34",
+   "color": "3"
+  },
+  {
+   "id": "e34",
+   "fromNode": "n30",
+   "toNode": "n35",
+   "color": "3"
+  },
+  {
+   "id": "e35",
+   "fromNode": "n30",
+   "toNode": "n36",
+   "color": "3"
+  },
+  {
+   "id": "e36",
+   "fromNode": "n1",
+   "toNode": "n37",
+   "color": "3"
+  },
+  {
+   "id": "e37",
+   "fromNode": "n37",
+   "toNode": "n38",
+   "color": "3"
+  },
+  {
+   "id": "e38",
+   "fromNode": "n37",
+   "toNode": "n39",
+   "color": "3"
+  },
+  {
+   "id": "e39",
+   "fromNode": "n37",
+   "toNode": "n40",
+   "color": "3"
+  },
+  {
+   "id": "e40",
+   "fromNode": "n37",
+   "toNode": "n41",
+   "color": "3"
+  },
+  {
+   "id": "e41",
+   "fromNode": "n37",
+   "toNode": "n42",
+   "color": "3"
+  },
+  {
+   "id": "e42",
+   "fromNode": "n37",
+   "toNode": "n43",
+   "color": "3"
+  }
+ ]
+}

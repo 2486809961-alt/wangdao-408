@@ -1,0 +1,576 @@
+{
+ "nodes": [
+  {
+   "id": "n1",
+   "type": "text",
+   "x": 0,
+   "y": 0,
+   "width": 300,
+   "height": 690,
+   "text": "## 操作系统\n\n5 章 · **157** 个考点\n\n[[操作系统·考点总览]]",
+   "color": "#74A0E2"
+  },
+  {
+   "id": "n2",
+   "type": "text",
+   "x": 430,
+   "y": 0,
+   "width": 340,
+   "height": 730,
+   "text": "**第1章 计算机系统概述**\n\nPDF p13–48\n原书 p.1–36\n\n[[O01 操作系统 第01章 计算机系统概述/本章复盘]]",
+   "color": "#1261D9"
+  },
+  {
+   "id": "n3",
+   "type": "text",
+   "x": 880,
+   "y": 100,
+   "width": 430,
+   "height": 78,
+   "text": "两种模式下发生或执行的事件分析\n`4 年 · 2011、2012、2014、2021`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n4",
+   "type": "text",
+   "x": 880,
+   "y": 200,
+   "width": 430,
+   "height": 78,
+   "text": "系统调用的处理过程及相关分析\n`4 年 · 2012、2017、2022、2023`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n5",
+   "type": "text",
+   "x": 880,
+   "y": 300,
+   "width": 430,
+   "height": 78,
+   "text": "中断和异常的处理过程\n`3 年 · 2015、2020、2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n6",
+   "type": "text",
+   "x": 880,
+   "y": 400,
+   "width": 430,
+   "height": 78,
+   "text": "系统调用的定义、功能及性质\n`3 年 · 2019、2021、2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n7",
+   "type": "text",
+   "x": 880,
+   "y": 500,
+   "width": 430,
+   "height": 78,
+   "text": "可能引发中断或异常的指令分析\n`2 年 · 2013、2015`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n8",
+   "type": "text",
+   "x": 880,
+   "y": 600,
+   "width": 430,
+   "height": 78,
+   "text": "多道批处理系统特点\n`2 年 · 2017、2022`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n9",
+   "type": "text",
+   "x": 430,
+   "y": 775,
+   "width": 340,
+   "height": 730,
+   "text": "**第2章 进程与线程**\n\nPDF p49–187\n原书 p.37–175\n\n[[O02 操作系统 第02章 进程与线程/本章复盘]]",
+   "color": "#1261D9"
+  },
+  {
+   "id": "n10",
+   "type": "text",
+   "x": 880,
+   "y": 875,
+   "width": 430,
+   "height": 78,
+   "text": "PV操作的应用题\n`8 年 · 2009、2011、2013、2014、2015、2017、2019、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n11",
+   "type": "text",
+   "x": 880,
+   "y": 975,
+   "width": 430,
+   "height": 78,
+   "text": "引起进程状态转换的事件\n`5 年 · 2014、2015、2018、2023、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n12",
+   "type": "text",
+   "x": 880,
+   "y": 1075,
+   "width": 430,
+   "height": 78,
+   "text": "银行家算法安全序列分析\n`5 年 · 2011、2012、2018、2020、2022`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n13",
+   "type": "text",
+   "x": 880,
+   "y": 1175,
+   "width": 430,
+   "height": 78,
+   "text": "各种调度算法特点与对比\n`3 年 · 2009、2011、2014`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n14",
+   "type": "text",
+   "x": 880,
+   "y": 1275,
+   "width": 430,
+   "height": 78,
+   "text": "同步与互斥的相关分析\n`3 年 · 2016、2021、2023`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n15",
+   "type": "text",
+   "x": 880,
+   "y": 1375,
+   "width": 430,
+   "height": 78,
+   "text": "线程的特点\n`3 年 · 2011、2019、2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n16",
+   "type": "text",
+   "x": 430,
+   "y": 1550,
+   "width": 340,
+   "height": 730,
+   "text": "**第3章 内存管理**\n\nPDF p188–262\n原书 p.176–250\n\n[[O03 操作系统 第03章 内存管理/本章复盘]]",
+   "color": "#1261D9"
+  },
+  {
+   "id": "n17",
+   "type": "text",
+   "x": 880,
+   "y": 1650,
+   "width": 430,
+   "height": 78,
+   "text": "分页系统的逻辑地址结构\n`6 年 · 2009、2010、2013、2015、2017、2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n18",
+   "type": "text",
+   "x": 880,
+   "y": 1750,
+   "width": 430,
+   "height": 78,
+   "text": "两级页表的逻辑地址结构及相关分析\n`5 年 · 2010、2013、2015、2017、2019`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n19",
+   "type": "text",
+   "x": 880,
+   "y": 1850,
+   "width": 430,
+   "height": 78,
+   "text": "缺页处理的过程及效率分析\n`5 年 · 2011、2013、2014、2020、2022`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n20",
+   "type": "text",
+   "x": 880,
+   "y": 1950,
+   "width": 430,
+   "height": 78,
+   "text": "LRU 算法应用分析\n`4 年 · 2009、2015、2019、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n21",
+   "type": "text",
+   "x": 880,
+   "y": 2050,
+   "width": 430,
+   "height": 78,
+   "text": "分页系统地址变换过程及分析\n`4 年 · 2009、2010、2014、2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n22",
+   "type": "text",
+   "x": 880,
+   "y": 2150,
+   "width": 430,
+   "height": 78,
+   "text": "页式系统地址变换过程\n`3 年 · 2013、2021、2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n23",
+   "type": "text",
+   "x": 430,
+   "y": 2325,
+   "width": 340,
+   "height": 730,
+   "text": "**第4章 文件管理**\n\nPDF p263–316\n原书 p.251–304\n\n[[O04 操作系统 第04章 文件管理/本章复盘]]",
+   "color": "#1261D9"
+  },
+  {
+   "id": "n24",
+   "type": "text",
+   "x": 880,
+   "y": 2425,
+   "width": 430,
+   "height": 78,
+   "text": "不同物理结构的特点和比较\n`4 年 · 2009、2011、2013、2020`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n25",
+   "type": "text",
+   "x": 880,
+   "y": 2525,
+   "width": 430,
+   "height": 78,
+   "text": "位示图的应用及相关计算\n`4 年 · 2010、2014、2015、2023`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n26",
+   "type": "text",
+   "x": 880,
+   "y": 2625,
+   "width": 430,
+   "height": 78,
+   "text": "混合索引分配的相关计算\n`4 年 · 2010、2015、2018、2022`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n27",
+   "type": "text",
+   "x": 880,
+   "y": 2725,
+   "width": 430,
+   "height": 78,
+   "text": "文件名和文件描述符的应用场景\n`3 年 · 2012、2017、2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n28",
+   "type": "text",
+   "x": 880,
+   "y": 2825,
+   "width": 430,
+   "height": 78,
+   "text": "文件打开过程与分析\n`3 年 · 2014、2017、2020`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n29",
+   "type": "text",
+   "x": 880,
+   "y": 2925,
+   "width": 430,
+   "height": 78,
+   "text": "连续分配的应用和分析\n`3 年 · 2011、2012、2014`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n30",
+   "type": "text",
+   "x": 430,
+   "y": 3100,
+   "width": 340,
+   "height": 730,
+   "text": "**第5章 输入/输出管理**\n\nPDF p317–371\n原书 p.305–359\n\n[[O05 操作系统 第05章 输入／输出管理/本章复盘]]",
+   "color": "#1261D9"
+  },
+  {
+   "id": "n31",
+   "type": "text",
+   "x": 880,
+   "y": 3200,
+   "width": 430,
+   "height": 78,
+   "text": "设备驱动程序的功能\n`4 年 · 2013、2019、2023、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n32",
+   "type": "text",
+   "x": 880,
+   "y": 3300,
+   "width": 430,
+   "height": 78,
+   "text": "SCAN 算法应用\n`3 年 · 2009、2010、2015`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n33",
+   "type": "text",
+   "x": 880,
+   "y": 3400,
+   "width": 430,
+   "height": 78,
+   "text": "子系统各层次功能及分析\n`3 年 · 2011、2012、2013`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n34",
+   "type": "text",
+   "x": 880,
+   "y": 3500,
+   "width": 430,
+   "height": 78,
+   "text": "SSTF 算法的应用\n`2 年 · 2019、2021`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n35",
+   "type": "text",
+   "x": 880,
+   "y": 3600,
+   "width": 430,
+   "height": 78,
+   "text": "中断处理程序执行时请求进程状态\n`2 年 · 2017、2023`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n36",
+   "type": "text",
+   "x": 880,
+   "y": 3700,
+   "width": 430,
+   "height": 78,
+   "text": "单缓冲的工作时间的理解与计算\n`2 年 · 2011、2013`",
+   "color": "#D3DEEE"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e1",
+   "fromNode": "n1",
+   "toNode": "n2",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e2",
+   "fromNode": "n2",
+   "toNode": "n3",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e3",
+   "fromNode": "n2",
+   "toNode": "n4",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e4",
+   "fromNode": "n2",
+   "toNode": "n5",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e5",
+   "fromNode": "n2",
+   "toNode": "n6",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e6",
+   "fromNode": "n2",
+   "toNode": "n7",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e7",
+   "fromNode": "n2",
+   "toNode": "n8",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e8",
+   "fromNode": "n1",
+   "toNode": "n9",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e9",
+   "fromNode": "n9",
+   "toNode": "n10",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e10",
+   "fromNode": "n9",
+   "toNode": "n11",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e11",
+   "fromNode": "n9",
+   "toNode": "n12",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e12",
+   "fromNode": "n9",
+   "toNode": "n13",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e13",
+   "fromNode": "n9",
+   "toNode": "n14",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e14",
+   "fromNode": "n9",
+   "toNode": "n15",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e15",
+   "fromNode": "n1",
+   "toNode": "n16",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e16",
+   "fromNode": "n16",
+   "toNode": "n17",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e17",
+   "fromNode": "n16",
+   "toNode": "n18",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e18",
+   "fromNode": "n16",
+   "toNode": "n19",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e19",
+   "fromNode": "n16",
+   "toNode": "n20",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e20",
+   "fromNode": "n16",
+   "toNode": "n21",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e21",
+   "fromNode": "n16",
+   "toNode": "n22",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e22",
+   "fromNode": "n1",
+   "toNode": "n23",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e23",
+   "fromNode": "n23",
+   "toNode": "n24",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e24",
+   "fromNode": "n23",
+   "toNode": "n25",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e25",
+   "fromNode": "n23",
+   "toNode": "n26",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e26",
+   "fromNode": "n23",
+   "toNode": "n27",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e27",
+   "fromNode": "n23",
+   "toNode": "n28",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e28",
+   "fromNode": "n23",
+   "toNode": "n29",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e29",
+   "fromNode": "n1",
+   "toNode": "n30",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e30",
+   "fromNode": "n30",
+   "toNode": "n31",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e31",
+   "fromNode": "n30",
+   "toNode": "n32",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e32",
+   "fromNode": "n30",
+   "toNode": "n33",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e33",
+   "fromNode": "n30",
+   "toNode": "n34",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e34",
+   "fromNode": "n30",
+   "toNode": "n35",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e35",
+   "fromNode": "n30",
+   "toNode": "n36",
+   "color": "#5C82B8"
+  }
+ ]
+}

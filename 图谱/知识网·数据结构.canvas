@@ -1,0 +1,784 @@
+{
+ "nodes": [
+  {
+   "id": "n1",
+   "type": "text",
+   "x": 0,
+   "y": 0,
+   "width": 300,
+   "height": 1050,
+   "text": "## 数据结构\n\n8 章 · **148** 个考点\n\n[[数据结构·考点总览]]",
+   "color": "#1261D9"
+  },
+  {
+   "id": "n2",
+   "type": "text",
+   "x": 430,
+   "y": 0,
+   "width": 340,
+   "height": 330,
+   "text": "**第1章 绪论**\n\nPDF p13–24\n原书 p.1–12\n\n[[S01 数据结构 第01章 绪论/本章复盘]]",
+   "color": "#96B5E3"
+  },
+  {
+   "id": "n3",
+   "type": "text",
+   "x": 880,
+   "y": 100,
+   "width": 430,
+   "height": 78,
+   "text": "分析时空复杂度\n`7 年 · 2010、2013、2015、2016、2018、2021、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n4",
+   "type": "text",
+   "x": 880,
+   "y": 200,
+   "width": 430,
+   "height": 78,
+   "text": "分析算法的时间复杂度\n`6 年 · 2011、2014、2017、2019、2022、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n5",
+   "type": "text",
+   "x": 430,
+   "y": 375,
+   "width": 340,
+   "height": 730,
+   "text": "**第2章 线性表**\n\nPDF p25–74\n原书 p.13–62\n\n[[S02 数据结构 第02章 线性表/本章复盘]]",
+   "color": "#508AE2"
+  },
+  {
+   "id": "n6",
+   "type": "text",
+   "x": 880,
+   "y": 475,
+   "width": 430,
+   "height": 78,
+   "text": "单链表应用\n`6 年 · 2009、2012、2013、2015、2016、2019`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n7",
+   "type": "text",
+   "x": 880,
+   "y": 575,
+   "width": 430,
+   "height": 78,
+   "text": "顺序表应用\n`5 年 · 2010、2011、2018、2020、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n8",
+   "type": "text",
+   "x": 880,
+   "y": 675,
+   "width": 430,
+   "height": 78,
+   "text": "单链表插入操作的过程\n`2 年 · 2016、2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n9",
+   "type": "text",
+   "x": 880,
+   "y": 775,
+   "width": 430,
+   "height": 78,
+   "text": "双链表中删除操作实现\n`1 年 · 2016`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n10",
+   "type": "text",
+   "x": 880,
+   "y": 875,
+   "width": 430,
+   "height": 78,
+   "text": "双链表中插入操作的实现\n`1 年 · 2023`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n11",
+   "type": "text",
+   "x": 880,
+   "y": 975,
+   "width": 430,
+   "height": 78,
+   "text": "循环单链表中删除首元素的操作\n`1 年 · 2021`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n12",
+   "type": "text",
+   "x": 430,
+   "y": 1150,
+   "width": 340,
+   "height": 730,
+   "text": "**第3章 栈、队列和数组**\n\nPDF p75–120\n原书 p.63–108\n\n[[S03 数据结构 第03章 栈、队列和数组/本章复盘]]",
+   "color": "#508AE2"
+  },
+  {
+   "id": "n13",
+   "type": "text",
+   "x": 880,
+   "y": 1250,
+   "width": 430,
+   "height": 78,
+   "text": "出入栈序列的分析\n`6 年 · 2010、2011、2013、2018、2020、2022`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n14",
+   "type": "text",
+   "x": 880,
+   "y": 1350,
+   "width": 430,
+   "height": 78,
+   "text": "栈的深度分析\n`3 年 · 2009、2012、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n15",
+   "type": "text",
+   "x": 880,
+   "y": 1450,
+   "width": 430,
+   "height": 78,
+   "text": "双端队列出入队操作的分析\n`2 年 · 2010、2021`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n16",
+   "type": "text",
+   "x": 880,
+   "y": 1550,
+   "width": 430,
+   "height": 78,
+   "text": "对称矩阵压缩存储的下标对应关系\n`2 年 · 2018、2020`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n17",
+   "type": "text",
+   "x": 880,
+   "y": 1650,
+   "width": 430,
+   "height": 78,
+   "text": "栈在函数调用中的作用和工作原理\n`2 年 · 2015、2017`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n18",
+   "type": "text",
+   "x": 880,
+   "y": 1750,
+   "width": 430,
+   "height": 78,
+   "text": "Catalan 数应用\n`1 年 · 2015`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n19",
+   "type": "text",
+   "x": 430,
+   "y": 1925,
+   "width": 340,
+   "height": 330,
+   "text": "**第4章 串**\n\nPDF p121–135\n原书 p.109–123\n\n[[S04 数据结构 第04章 串/本章复盘]]",
+   "color": "#96B5E3"
+  },
+  {
+   "id": "n20",
+   "type": "text",
+   "x": 880,
+   "y": 2025,
+   "width": 430,
+   "height": 78,
+   "text": "KMP 算法中指针变化/比较次数分析\n`2 年 · 2015、2019`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n21",
+   "type": "text",
+   "x": 880,
+   "y": 2125,
+   "width": 430,
+   "height": 78,
+   "text": "nextval数组的计算\n`1 年 · 2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n22",
+   "type": "text",
+   "x": 430,
+   "y": 2300,
+   "width": 340,
+   "height": 730,
+   "text": "**第5章 树与二叉树**\n\nPDF p136–206\n原书 p.124–194\n\n[[S05 数据结构 第05章 树与二叉树/本章复盘]]",
+   "color": "#508AE2"
+  },
+  {
+   "id": "n23",
+   "type": "text",
+   "x": 880,
+   "y": 2400,
+   "width": 430,
+   "height": 78,
+   "text": "哈夫曼树的构造及相关分析\n`4 年 · 2012、2018、2021、2023`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n24",
+   "type": "text",
+   "x": 880,
+   "y": 2500,
+   "width": 430,
+   "height": 78,
+   "text": "完全二叉树的特性\n`4 年 · 2009、2011、2018、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n25",
+   "type": "text",
+   "x": 880,
+   "y": 2600,
+   "width": 430,
+   "height": 78,
+   "text": "二叉树遍历应用\n`3 年 · 2014、2017、2022`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n26",
+   "type": "text",
+   "x": 880,
+   "y": 2700,
+   "width": 430,
+   "height": 78,
+   "text": "二叉树遍历的相关分析\n`3 年 · 2009、2011、2012`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n27",
+   "type": "text",
+   "x": 880,
+   "y": 2800,
+   "width": 430,
+   "height": 78,
+   "text": "中序字列中结点关系分析\n`2 年 · 2017、2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n28",
+   "type": "text",
+   "x": 880,
+   "y": 2900,
+   "width": 430,
+   "height": 78,
+   "text": "二叉树顺序存储结构相关应用\n`2 年 · 2020、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n29",
+   "type": "text",
+   "x": 430,
+   "y": 3075,
+   "width": 340,
+   "height": 730,
+   "text": "**第6章 图**\n\nPDF p207–275\n原书 p.195–263\n\n[[S06 数据结构 第06章 图/本章复盘]]",
+   "color": "#508AE2"
+  },
+  {
+   "id": "n30",
+   "type": "text",
+   "x": 880,
+   "y": 3175,
+   "width": 430,
+   "height": 78,
+   "text": "Dijkstra 算法求解最短路径实例\n`4 年 · 2012、2014、2016、2021`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n31",
+   "type": "text",
+   "x": 880,
+   "y": 3275,
+   "width": 430,
+   "height": 78,
+   "text": "拓扑排序实例\n`4 年 · 2010、2014、2018、2021`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n32",
+   "type": "text",
+   "x": 880,
+   "y": 3375,
+   "width": 430,
+   "height": 78,
+   "text": "Kruskal 算法构造最小生成树的实例\n`3 年 · 2015、2018、2020`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n33",
+   "type": "text",
+   "x": 880,
+   "y": 3475,
+   "width": 430,
+   "height": 78,
+   "text": "Prim算法构造最小生成树的实例\n`3 年 · 2015、2017、2018`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n34",
+   "type": "text",
+   "x": 880,
+   "y": 3575,
+   "width": 430,
+   "height": 78,
+   "text": "图的邻接矩阵存储及相互转换\n`3 年 · 2011、2015、2018`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n35",
+   "type": "text",
+   "x": 880,
+   "y": 3675,
+   "width": 430,
+   "height": 78,
+   "text": "基于邻接矩阵的顶点的度的计算\n`3 年 · 2013、2021、2023`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n36",
+   "type": "text",
+   "x": 430,
+   "y": 3850,
+   "width": 340,
+   "height": 730,
+   "text": "**第7章 查找**\n\nPDF p276–342\n原书 p.264–330\n\n[[S07 数据结构 第07章 查找/本章复盘]]",
+   "color": "#508AE2"
+  },
+  {
+   "id": "n37",
+   "type": "text",
+   "x": 880,
+   "y": 3950,
+   "width": 430,
+   "height": 78,
+   "text": "B树中关键字数和结点数的分析\n`4 年 · 2013、2014、2018、2021`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n38",
+   "type": "text",
+   "x": 880,
+   "y": 4050,
+   "width": 430,
+   "height": 78,
+   "text": "散列表的构造及查找效率分析\n`4 年 · 2010、2018、2019、2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n39",
+   "type": "text",
+   "x": 880,
+   "y": 4150,
+   "width": 430,
+   "height": 78,
+   "text": "二叉排序树中结点值之间的关系\n`3 年 · 2015、2018、2024`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n40",
+   "type": "text",
+   "x": 880,
+   "y": 4250,
+   "width": 430,
+   "height": 78,
+   "text": "平衡二叉树的插入及调整操作的实例\n`3 年 · 2010、2019、2021`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n41",
+   "type": "text",
+   "x": 880,
+   "y": 4350,
+   "width": 430,
+   "height": 78,
+   "text": "B树的删除操作的实例\n`2 年 · 2012、2022`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n42",
+   "type": "text",
+   "x": 880,
+   "y": 4450,
+   "width": 430,
+   "height": 78,
+   "text": "B树的定义和特点\n`2 年 · 2009、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n43",
+   "type": "text",
+   "x": 430,
+   "y": 4625,
+   "width": 340,
+   "height": 730,
+   "text": "**第8章 排序**\n\nPDF p343–403\n原书 p.331–391\n\n[[S08 数据结构 第08章 排序/本章复盘]]",
+   "color": "#508AE2"
+  },
+  {
+   "id": "n44",
+   "type": "text",
+   "x": 880,
+   "y": 4725,
+   "width": 430,
+   "height": 78,
+   "text": "各种排序算法特点和对比\n`6 年 · 2009、2010、2017、2020、2022、2025`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n45",
+   "type": "text",
+   "x": 880,
+   "y": 4825,
+   "width": 430,
+   "height": 78,
+   "text": "快速排序的中间过程的分析\n`3 年 · 2014、2019、2023`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n46",
+   "type": "text",
+   "x": 880,
+   "y": 4925,
+   "width": 430,
+   "height": 78,
+   "text": "计数排序思想的应用\n`3 年 · 2013、2015、2018`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n47",
+   "type": "text",
+   "x": 880,
+   "y": 5025,
+   "width": 430,
+   "height": 78,
+   "text": "初始建堆操作\n`2 年 · 2018、2021`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n48",
+   "type": "text",
+   "x": 880,
+   "y": 5125,
+   "width": 430,
+   "height": 78,
+   "text": "各种排序算法的稳定性及分析\n`2 年 · 2021、2023`",
+   "color": "#D3DEEE"
+  },
+  {
+   "id": "n49",
+   "type": "text",
+   "x": 880,
+   "y": 5225,
+   "width": 430,
+   "height": 78,
+   "text": "基数排序的中间过程的分析\n`2 年 · 2013、2021`",
+   "color": "#D3DEEE"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e1",
+   "fromNode": "n1",
+   "toNode": "n2",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e2",
+   "fromNode": "n2",
+   "toNode": "n3",
+   "color": "#8FA9CC"
+  },
+  {
+   "id": "e3",
+   "fromNode": "n2",
+   "toNode": "n4",
+   "color": "#8FA9CC"
+  },
+  {
+   "id": "e4",
+   "fromNode": "n1",
+   "toNode": "n5",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e5",
+   "fromNode": "n5",
+   "toNode": "n6",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e6",
+   "fromNode": "n5",
+   "toNode": "n7",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e7",
+   "fromNode": "n5",
+   "toNode": "n8",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e8",
+   "fromNode": "n5",
+   "toNode": "n9",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e9",
+   "fromNode": "n5",
+   "toNode": "n10",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e10",
+   "fromNode": "n5",
+   "toNode": "n11",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e11",
+   "fromNode": "n1",
+   "toNode": "n12",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e12",
+   "fromNode": "n12",
+   "toNode": "n13",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e13",
+   "fromNode": "n12",
+   "toNode": "n14",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e14",
+   "fromNode": "n12",
+   "toNode": "n15",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e15",
+   "fromNode": "n12",
+   "toNode": "n16",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e16",
+   "fromNode": "n12",
+   "toNode": "n17",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e17",
+   "fromNode": "n12",
+   "toNode": "n18",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e18",
+   "fromNode": "n1",
+   "toNode": "n19",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e19",
+   "fromNode": "n19",
+   "toNode": "n20",
+   "color": "#8FA9CC"
+  },
+  {
+   "id": "e20",
+   "fromNode": "n19",
+   "toNode": "n21",
+   "color": "#8FA9CC"
+  },
+  {
+   "id": "e21",
+   "fromNode": "n1",
+   "toNode": "n22",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e22",
+   "fromNode": "n22",
+   "toNode": "n23",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e23",
+   "fromNode": "n22",
+   "toNode": "n24",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e24",
+   "fromNode": "n22",
+   "toNode": "n25",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e25",
+   "fromNode": "n22",
+   "toNode": "n26",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e26",
+   "fromNode": "n22",
+   "toNode": "n27",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e27",
+   "fromNode": "n22",
+   "toNode": "n28",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e28",
+   "fromNode": "n1",
+   "toNode": "n29",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e29",
+   "fromNode": "n29",
+   "toNode": "n30",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e30",
+   "fromNode": "n29",
+   "toNode": "n31",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e31",
+   "fromNode": "n29",
+   "toNode": "n32",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e32",
+   "fromNode": "n29",
+   "toNode": "n33",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e33",
+   "fromNode": "n29",
+   "toNode": "n34",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e34",
+   "fromNode": "n29",
+   "toNode": "n35",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e35",
+   "fromNode": "n1",
+   "toNode": "n36",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e36",
+   "fromNode": "n36",
+   "toNode": "n37",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e37",
+   "fromNode": "n36",
+   "toNode": "n38",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e38",
+   "fromNode": "n36",
+   "toNode": "n39",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e39",
+   "fromNode": "n36",
+   "toNode": "n40",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e40",
+   "fromNode": "n36",
+   "toNode": "n41",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e41",
+   "fromNode": "n36",
+   "toNode": "n42",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e42",
+   "fromNode": "n1",
+   "toNode": "n43",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e43",
+   "fromNode": "n43",
+   "toNode": "n44",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e44",
+   "fromNode": "n43",
+   "toNode": "n45",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e45",
+   "fromNode": "n43",
+   "toNode": "n46",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e46",
+   "fromNode": "n43",
+   "toNode": "n47",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e47",
+   "fromNode": "n43",
+   "toNode": "n48",
+   "color": "#5C82B8"
+  },
+  {
+   "id": "e48",
+   "fromNode": "n43",
+   "toNode": "n49",
+   "color": "#5C82B8"
+  }
+ ]
+}
