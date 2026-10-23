@@ -1,0 +1,621 @@
+/* ===========================================================
+   408 排版系统 · 王道题库
+   设计目标：题干像试卷、答案像批注、考点像标签、表格像答题卡
+   适配：阅读视图 + 实时预览 + 打印
+   =========================================================== */
+
+body {
+  --wd-blue: #2f6fed;
+  --wd-blue-soft: rgba(47, 111, 237, 0.08);
+  --wd-green: #15935b;
+  --wd-green-soft: rgba(21, 147, 91, 0.1);
+  --wd-amber: #c2830a;
+  --wd-amber-soft: rgba(194, 131, 10, 0.1);
+  --wd-gray: #8a8f98;
+  --wd-line: var(--background-modifier-border);
+  --wd-card: var(--background-primary-alt);
+  --wd-serif: "Songti SC", "Source Han Serif SC", "Noto Serif CJK SC", "SimSun", serif;
+  --wd-mono: "SF Mono", "JetBrains Mono", "Menlo", monospace;
+}
+
+/* ---------- 1. 版面基准 ---------- */
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer,
+.markdown-source-view.is-readable-line-width .cm-sizer {
+  max-width: 900px;
+}
+
+.markdown-rendered {
+  font-feature-settings: "tnum" 1;
+}
+
+.markdown-rendered p,
+.markdown-rendered li {
+  line-height: 1.85;
+}
+
+.markdown-rendered h1 {
+  font-size: 1.5em;
+  letter-spacing: -0.01em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid var(--background-modifier-border);
+  margin-bottom: 0.6em;
+}
+
+.markdown-rendered h2 {
+  font-size: 1.12em;
+  letter-spacing: 0.02em;
+  color: var(--text-normal);
+  padding-left: 0.55em;
+  border-left: 3px solid var(--wd-blue);
+  margin-top: 1.8em;
+}
+
+.markdown-rendered h3 {
+  font-size: 1em;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+
+/* ---------- 2. 题目头部：徽章行 ---------- */
+.wd-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin: -0.2em 0 1.1em;
+  font-size: 0.78em;
+}
+
+.wd-badge {
+  font-family: var(--wd-mono);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 3px 10px;
+  border-radius: 6px;
+  color: #fff;
+  background: var(--wd-blue);
+}
+
+.wd-chip {
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--wd-line);
+  color: var(--text-muted);
+  background: var(--background-primary);
+  white-space: nowrap;
+}
+
+.wd-chip.qtype-选择 {
+  color: var(--wd-blue);
+  border-color: color-mix(in srgb, var(--wd-blue) 40%, transparent);
+  background: var(--wd-blue-soft);
+}
+
+.wd-chip.qtype-综合 {
+  color: var(--wd-amber);
+  border-color: color-mix(in srgb, var(--wd-amber) 40%, transparent);
+  background: var(--wd-amber-soft);
+}
+
+/* ---------- 3. 题干卡（question） ---------- */
+.callout[data-callout="question"] {
+  --callout-color: 47, 111, 237;
+  border: 1px solid color-mix(in srgb, var(--wd-blue) 22%, transparent);
+  border-left: 4px solid var(--wd-blue);
+  border-radius: 4px 10px 10px 4px;
+  background: linear-gradient(180deg, var(--wd-blue-soft), transparent 70%);
+  padding: 0.9em 1.1em 1em;
+}
+
+.callout[data-callout="question"] .callout-title {
+  font-size: 0.76em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--wd-blue);
+  font-weight: 700;
+}
+
+.callout[data-callout="question"] .callout-content p {
+  font-family: var(--wd-serif);
+  font-size: 1.06em;
+  line-height: 2;
+}
+
+/* 选项网格 */
+.wd-opts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 4px 22px;
+  margin: 0.7em 0 0.2em;
+  padding-top: 0.6em;
+  border-top: 1px dashed var(--wd-line);
+}
+
+.wd-opt {
+  display: flex;
+  gap: 0.55em;
+  align-items: baseline;
+  font-family: var(--wd-serif);
+  line-height: 1.75;
+  padding: 2px 0;
+}
+
+.wd-opt b {
+  flex: 0 0 auto;
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: var(--wd-mono);
+  font-size: 0.78em;
+  font-weight: 700;
+  color: var(--wd-blue);
+  background: var(--wd-blue-soft);
+  border: 1px solid color-mix(in srgb, var(--wd-blue) 30%, transparent);
+  transform: translateY(-0.1em);
+}
+
+/* ---------- 4. 答案（success） ---------- */
+.callout[data-callout="success"] {
+  --callout-color: 21, 147, 91;
+  border: 1px solid color-mix(in srgb, var(--wd-green) 25%, transparent);
+  border-radius: 10px;
+  background: var(--wd-green-soft);
+  padding: 0.7em 1em;
+}
+
+.wd-ans {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: var(--wd-mono);
+  font-size: 1.05em;
+  font-weight: 700;
+  color: var(--wd-green);
+  padding: 2px 12px;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--wd-green) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--wd-green) 35%, transparent);
+}
+
+/* ---------- 5. 解析要点 ---------- */
+.wd-expl p {
+  margin: 0.5em 0;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.wd-expl p:first-child::before {
+  content: "解";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #fff;
+  background: var(--wd-gray);
+  transform: translateY(-0.1em);
+}
+
+/* ---------- 6. 考点（info） → 标签流 ---------- */
+.callout[data-callout="info"] {
+  --callout-color: 138, 143, 152;
+  border: 1px solid var(--wd-line);
+  border-radius: 10px;
+  background: var(--background-secondary);
+  padding: 0.7em 1em;
+}
+
+.callout[data-callout="info"] .callout-title {
+  font-size: 0.74em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.wd-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  margin-top: 0.2em;
+}
+
+.wd-chips a.internal-link,
+.wd-chips a.tag {
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.86em;
+  text-decoration: none;
+  border: 1px solid color-mix(in srgb, var(--wd-blue) 28%, transparent);
+  background: var(--wd-blue-soft);
+  color: var(--wd-blue);
+}
+
+.wd-chips a.internal-link:hover {
+  background: color-mix(in srgb, var(--wd-blue) 18%, transparent);
+}
+
+/* ---------- 7. 教材出处（example） ---------- */
+.callout[data-callout="example"] {
+  --callout-color: 138, 143, 152;
+  border: none;
+  border-top: 1px solid var(--wd-line);
+  border-radius: 0;
+  background: transparent;
+  padding: 0.8em 0 0.2em;
+  font-size: 0.88em;
+  color: var(--text-muted);
+}
+
+.callout[data-callout="example"] .callout-title {
+  font-size: 0.72em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.wd-pages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 0.3em;
+  font-family: var(--wd-mono);
+  font-size: 0.82em;
+}
+
+.wd-page {
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px dashed var(--wd-line);
+  background: var(--background-secondary);
+}
+
+/* ---------- 8. 复盘提示（warning） ---------- */
+.callout[data-callout="warning"] {
+  --callout-color: 194, 131, 10;
+  border: 1px dashed color-mix(in srgb, var(--wd-amber) 45%, transparent);
+  border-radius: 10px;
+  background: transparent;
+  padding: 0.6em 1em;
+}
+
+.callout[data-callout="warning"] .callout-title {
+  font-size: 0.74em;
+  letter-spacing: 0.12em;
+  color: var(--wd-amber);
+}
+
+.wd-todo ul,
+.callout[data-callout="warning"] ul {
+  margin: 0.2em 0;
+}
+
+.callout[data-callout="warning"] li {
+  font-size: 0.92em;
+  line-height: 1.9;
+}
+
+/* ---------- 9. 表格（本章复盘 / 考点页） ---------- */
+.markdown-rendered table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  font-size: 0.88em;
+  border: 1px solid var(--wd-line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.markdown-rendered thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--background-secondary);
+  font-weight: 600;
+  font-size: 0.92em;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--wd-line);
+}
+
+.markdown-rendered th,
+.markdown-rendered td {
+  padding: 5px 10px;
+  border-bottom: 1px solid var(--background-modifier-border-hover);
+}
+
+.markdown-rendered tbody tr:nth-child(even) {
+  background: var(--background-secondary-alt);
+}
+
+.markdown-rendered tbody tr:hover {
+  background: var(--wd-blue-soft);
+}
+
+.markdown-rendered td:first-child,
+.markdown-rendered th:first-child {
+  font-family: var(--wd-mono);
+  font-size: 0.92em;
+  white-space: nowrap;
+}
+
+.markdown-rendered td:nth-child(5),
+.markdown-rendered td:nth-child(6),
+.markdown-rendered td:nth-child(7) {
+  font-family: var(--wd-mono);
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+/* ---------- 10. 统计条 ---------- */
+.wd-stat {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin: 1em 0 1.6em;
+}
+
+.wd-stat > div {
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: var(--background-secondary);
+  border: 1px solid var(--wd-line);
+}
+
+.wd-stat b {
+  display: block;
+  font-family: var(--wd-mono);
+  font-size: 1.5em;
+  line-height: 1.2;
+  color: var(--wd-blue);
+}
+
+.wd-stat span {
+  font-size: 0.76em;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+}
+
+/* ---------- 11. 考点页题目列表：双列 ---------- */
+.wd-qlist {
+  column-count: 2;
+  column-gap: 28px;
+  font-size: 0.9em;
+}
+
+.wd-qlist > ul {
+  margin: 0;
+  padding-left: 1.1em;
+}
+
+.wd-qlist li {
+  break-inside: avoid;
+  line-height: 1.75;
+}
+
+@media (max-width: 900px) {
+  .wd-qlist {
+    column-count: 1;
+  }
+}
+
+/* ---------- 12. 元数据面板（属性） ---------- */
+.markdown-preview-view .metadata-container {
+  border: 1px solid var(--wd-line);
+  border-radius: 10px;
+  padding: 0.5em 0.8em;
+  background: var(--background-secondary);
+  font-size: 0.82em;
+}
+
+.markdown-preview-view .metadata-container .multi-select-pill {
+  font-family: var(--wd-mono);
+  font-size: 0.9em;
+  border-radius: 999px;
+}
+
+/* ---------- 13. Editing Toolbar：悬浮胶囊 ---------- */
+.editing-toolbar {
+  border-radius: 999px !important;
+  border: 1px solid var(--wd-line) !important;
+  background: color-mix(in srgb, var(--background-primary) 82%, transparent) !important;
+  backdrop-filter: saturate(1.4) blur(14px);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.12) !important;
+  padding: 3px 8px !important;
+}
+
+.editing-toolbar .toolbar-item:hover {
+  background: var(--wd-blue-soft) !important;
+  border-radius: 8px;
+}
+
+.editing-toolbar .toolbar-item svg {
+  opacity: 0.86;
+}
+
+/* ---------- 14. 进度 / 状态 ---------- */
+.markdown-rendered input[type="checkbox"] {
+  border-radius: 4px;
+  transform: scale(1.05);
+}
+
+/* ---------- 15. 打印 ---------- */
+@media print {
+  .editing-toolbar,
+  .status-bar,
+  .workspace-ribbon {
+    display: none !important;
+  }
+
+  .markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: none;
+  }
+
+  .callout {
+    break-inside: avoid;
+  }
+
+  .wd-head {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+  }
+
+  a.internal-link {
+    color: inherit !important;
+    text-decoration: none;
+  }
+
+  a.internal-link::after {
+    content: "";
+  }
+}
+/* ===========================================================
+   16. Callout 内部的「原生 Markdown → 视觉组件」
+   Obsidian 会在 callout 里丢掉裸 HTML，所以这些全部靠选择器改造
+   =========================================================== */
+
+/* 16.1 答案：> **A** → 绿色胶囊 */
+.callout[data-callout="success"] .callout-content strong {
+  display: inline-block;
+  font-family: var(--wd-mono);
+  font-size: 1.15em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #fff;
+  background: var(--wd-green);
+  padding: 2px 14px;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--wd-green) 60%, #000);
+}
+
+.callout[data-callout="success"] .callout-content p {
+  margin: 0.2em 0;
+}
+
+/* 16.2 考点：列表 → 标签流 */
+.callout[data-callout="info"] .callout-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  margin: 0.35em 0 0;
+  padding: 0;
+}
+
+.callout[data-callout="info"] .callout-content li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.callout[data-callout="info"] .callout-content a.internal-link {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.86em;
+  text-decoration: none;
+  border: 1px solid color-mix(in srgb, var(--wd-blue) 30%, transparent);
+  background: var(--wd-blue-soft);
+  color: var(--wd-blue);
+  line-height: 1.5;
+}
+
+.callout[data-callout="info"] .callout-content a.internal-link:hover {
+  background: color-mix(in srgb, var(--wd-blue) 20%, transparent);
+  border-color: var(--wd-blue);
+}
+
+/* 16.3 出处：行内代码 → 页码胶囊 */
+.callout[data-callout="example"] .callout-content code {
+  font-family: var(--wd-mono);
+  font-size: 0.84em;
+  padding: 2px 8px;
+  margin-right: 6px;
+  border-radius: 4px;
+  border: 1px dashed var(--wd-line);
+  background: var(--background-secondary);
+  color: var(--text-muted);
+}
+
+/* 16.4 题干段落：模考卷的字号与行距 */
+.callout[data-callout="question"] .callout-content > p {
+  margin: 0.15em 0 0;
+}
+
+/* 16.5 解析卡：贴在题干下方，与选项网格对齐 */
+.wd-expl {
+  margin: 0.2em 0 0.4em;
+  padding-left: 0.2em;
+}
+
+.wd-expl p {
+  font-size: 0.97em;
+}
+
+/* 16.6 选项网格与题干卡缝合 */
+.callout[data-callout="question"] + .wd-opts {
+  margin-top: -0.1em;
+}
+
+/* 16.7 题目页首屏：徽章行下压 */
+.wd-head + .callout {
+  margin-top: 0.2em;
+}
+
+/* ===========================================================
+   17. Editing Toolbar 真身：.editingToolbarModalBar
+   （插件实际渲染的类名不是 .editing-toolbar）
+   =========================================================== */
+
+.editingToolbarModalBar {
+  border-radius: 999px !important;
+  border: 1px solid var(--background-modifier-border) !important;
+  background: color-mix(in srgb, var(--background-primary) 84%, transparent) !important;
+  backdrop-filter: saturate(1.5) blur(16px);
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.13) !important;
+  padding: 4px 10px !important;
+  gap: 2px;
+}
+
+.editingToolbarCommandItem,
+.editingToolbarDropdownButton {
+  border-radius: 8px !important;
+  transition: background 0.12s ease, transform 0.12s ease;
+}
+
+.editingToolbarCommandItem:hover,
+.editingToolbarDropdownButton:hover {
+  background: color-mix(in srgb, var(--wd-blue) 14%, transparent) !important;
+  transform: translateY(-1px);
+}
+
+.editingToolbarCommandItem svg,
+.editingToolbarDropdownButton svg {
+  opacity: 0.82;
+}
+
+/* 分隔线细一点，别把胶囊撑开 */
+.editingToolbarDivider {
+  margin: 0 4px !important;
+  opacity: 0.5;
+}
+
+/* AI 按钮按需隐藏（工具条保持紧凑） */
+.editing-toolbar-ai-button-main,
+.editing-toolbar-ai-button-inline {
+  display: none !important;
+}
+
+/* 子菜单同样胶囊化 */
+.editingToolbarCommandsubItem {
+  border-radius: 10px !important;
+  border: 1px solid var(--background-modifier-border) !important;
+  background: color-mix(in srgb, var(--background-primary) 92%, transparent) !important;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14) !important;
+}

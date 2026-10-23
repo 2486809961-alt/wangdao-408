@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "-file:/第\\d+章 第\\d+题/ -path:\"00 索引\" -path:\"图谱\" -path:\"真题\" -path:\"01 思维导图\"",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"本节考点\"",
+      "color": {
+        "a": 1,
+        "rgb": 1204697
+      }
+    },
+    {
+      "query": "path:\"本章复盘\"",
+      "color": {
+        "a": 1,
+        "rgb": 4556003
+      }
+    },
+    {
+      "query": "path:\"/00 未挂考点\"",
+      "color": {
+        "a": 1,
+        "rgb": 13097456
+      }
+    },
+    {
+      "query": "path:\"计算机网络·考点总览\"",
+      "color": {
+        "a": 1,
+        "rgb": 6658017
+      }
+    },
+    {
+      "query": "path:\"00 索引\"",
+      "color": {
+        "a": 1,
+        "rgb": 10467548
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.9,
+  "nodeSizeMultiplier": 1.1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 11,
+  "linkStrength": 1,
+  "linkDistance": 220,
+  "scale": 1.4941859389782288,
+  "close": true
+}

@@ -25,3 +25,7 @@ __pycache__/
 # 本地 OCR / 索引中间产物
 99 脚本/__pycache__/
 index/
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.DS_Store
+**/.trash/

@@ -1,0 +1,16 @@
+/* ===== canvas 蓝色节点：颜色由 .canvas 文件自带 hex，这里把 10% 淡染提到可辨识深度 ===== */
+.canvas-node.mod-canvas-color-custom > .canvas-node-container {
+  background-color: color-mix(in srgb, var(--canvas-color) 70%, var(--canvas-background, #ffffff)) !important;
+  border: 2px solid color-mix(in srgb, var(--canvas-color) 92%, transparent) !important;
+  box-shadow: 0 2px 10px color-mix(in srgb, var(--canvas-color) 32%, transparent) !important;
+}
+
+/* 纸色模式下文字保持深色即可读；暗色模式反相 */
+.theme-dark .canvas-node.mod-canvas-color-custom > .canvas-node-container {
+  background-color: color-mix(in srgb, var(--canvas-color) 55%, #1e1e1e) !important;
+}
+
+/* 连线跟着节点走，深浅一致 */
+.canvas-edges path.canvas-display-path {
+  stroke-width: 1.6px;
+}

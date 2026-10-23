@@ -1,0 +1,29 @@
+/* 属性默认折叠 —— 纯显示层，不改任何笔记文件 */
+/* 打开笔记时属性区只留一行「属性」；鼠标移到这一行上才展开，移开自动收回。 */
+
+.metadata-container {
+  margin-block: 2px 8px;
+  padding-bottom: 2px;
+}
+
+/* 默认收起（必须 !important：核心样式把 .metadata-content 设成了 block） */
+.metadata-container .metadata-content {
+  display: none !important;
+}
+
+/* 悬停属性条 / 键盘聚焦时展开 */
+.metadata-container:hover .metadata-content,
+.metadata-container:focus-within .metadata-content {
+  display: block !important;
+}
+
+/* 属性条做成可识别的一行 */
+.metadata-container .metadata-properties-heading {
+  cursor: pointer;
+  opacity: 0.72;
+  font-size: 0.85em;
+}
+
+.metadata-container:hover .metadata-properties-heading {
+  opacity: 1;
+}
