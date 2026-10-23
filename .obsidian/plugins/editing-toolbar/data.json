@@ -329,7 +329,9 @@
       "islinehead": false
     }
   ],
-  "viewTypeSettings": {},
+  "viewTypeSettings": {
+    "markdown": false
+  },
   "appearanceByStyle": {
     "top": {
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",

@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "",
+  "collapse-filter": false,
+  "search": "-file:/第\\d+章 第\\d+题/ -path:\"00 教材\" -path:\"00 索引\" -path:\"01 思维导图\" -path:\"02 章节笔记\" -path:\"图谱\" -path:\"真题\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"ZZ 大类\"",
+      "query": "path:\"总览\"",
       "color": {
         "a": 1,
         "rgb": 1204697
@@ -22,14 +22,14 @@
       }
     },
     {
-      "query": "path:\"ZZ 考点\"",
+      "query": "path:\"01 考点\"",
       "color": {
         "a": 1,
         "rgb": 8628706
       }
     },
     {
-      "query": "path:\"题目\"",
+      "query": "path:\"02 题目复盘\"",
       "color": {
         "a": 1,
         "rgb": 13097456
@@ -57,9 +57,9 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
+  "textFadeMultiplier": 0.3,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
@@ -67,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.795789328774733,
-  "close": false
+  "scale": 0.6099934294337825,
+  "close": true
 }

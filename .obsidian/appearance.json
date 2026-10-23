@@ -3,7 +3,8 @@
   "enabledCssSnippets": [
     "1000题排版",
     "408-排版",
-    "canvas-蓝色节点"
+    "canvas-蓝色节点",
+    "属性默认折叠"
   ],
   "showViewHeader": true
 }
