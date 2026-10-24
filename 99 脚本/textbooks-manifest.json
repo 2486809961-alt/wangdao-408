@@ -1,0 +1,61 @@
+{
+ "release": "textbooks-2027",
+ "repo": "2486809961-alt/wangdao-408",
+ "total_bytes": 1047091709,
+ "files": [
+  {
+   "asset": "textbook-2027-os.pdf",
+   "path": "00 教材/王道2027操作系统-高清带书签.pdf",
+   "bytes": 234834921,
+   "sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+  },
+  {
+   "asset": "textbook-2027-ds.pdf",
+   "path": "00 教材/27王道《数据结构》高清带书签.pdf",
+   "bytes": 211882411,
+   "sha256": "a1c4c19e30e185e2ea49c07848e1ec38f8497a5a132fddb9e2edc14df44e3357"
+  },
+  {
+   "asset": "textbook-2027-co.pdf",
+   "path": "00 教材/27王道《计算机组成原理》高清带书签.pdf",
+   "bytes": 208964308,
+   "sha256": "65cda37eca5a5fca5f899512586f7af11b3301c142ac05cbd5b218c18a742c5a"
+  },
+  {
+   "asset": "textbook-2027-cn.pdf",
+   "path": "00 教材/27王道《计算机网络》高清带书签.pdf",
+   "bytes": 197391964,
+   "sha256": "1bed935035106634fca642788055818f18fb051eb9cbb0490c9b85ec8fe3c97d"
+  },
+  {
+   "asset": "mindmap-ds.pdf",
+   "path": "01 思维导图/数据结构（含新大纲考点）.pdf",
+   "bytes": 73611135,
+   "sha256": "a1e2b63398c2e5fad1b6d354fa02ac5819f231d404545df6b290a706243092d7"
+  },
+  {
+   "asset": "mindmap-os.pdf",
+   "path": "01 思维导图/操作系统（含新大纲考点）.pdf",
+   "bytes": 45078721,
+   "sha256": "47c94596a5cc1d181966a99e3157510573a16b4248dc19012b310322ccceb319"
+  },
+  {
+   "asset": "mindmap-co.pdf",
+   "path": "01 思维导图/计算机组成原理（含新大纲考点）.pdf",
+   "bytes": 2311435,
+   "sha256": "bf9216a4fb29a3839bdfddd211854a71f918af065364c9a465c2a27b210bba07"
+  },
+  {
+   "asset": "mindmap-cn.pdf",
+   "path": "01 思维导图/计算机网络思维导（含新大纲考点）.pdf",
+   "bytes": 6391247,
+   "sha256": "2d54ac4fbe8304d567396fab2d710f4be9094dd0918c0bba638ef4a9ddeef6b6"
+  },
+  {
+   "asset": "mindmap-print-84p.pdf",
+   "path": "01 思维导图/汇总打印用(84页).pdf",
+   "bytes": 66625567,
+   "sha256": "2b660dddcb002d89b4a2ee12dfcdc017cbceecd0c61ba343b6e41e32f2b6a38b"
+  }
+ ]
+}
